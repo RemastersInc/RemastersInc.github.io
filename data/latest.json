@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-05T21:31:24Z",
+  "generated_at": "2026-11-05T22:15:17Z",
   "build": "0a54c3e3",
   "round_trip": {
     "units": 657,
@@ -735,6 +735,54 @@
       }
     ]
   },
+  "structure": {
+    "exports": 657,
+    "ged_measured": 651,
+    "ged_exact": 274,
+    "ged_mean": 27.402457757296467,
+    "ged_median": 5.0,
+    "ged_p90": 64.0,
+    "ged_buckets": [
+      {
+        "label": "0",
+        "count": 274
+      },
+      {
+        "label": "1-2",
+        "count": 8
+      },
+      {
+        "label": "3-5",
+        "count": 76
+      },
+      {
+        "label": "6-10",
+        "count": 71
+      },
+      {
+        "label": "11-20",
+        "count": 82
+      },
+      {
+        "label": "21+",
+        "count": 140
+      }
+    ],
+    "ged_unmeasured": [
+      {
+        "label": "absent",
+        "count": 6
+      }
+    ],
+    "type_measured": 651,
+    "type_mean": 0.34579102964669706,
+    "type_unmeasured": [
+      {
+        "label": "noGT",
+        "count": 6
+      }
+    ]
+  },
   "fp_suite": {
     "artefacts": 169,
     "functions": 53618,
@@ -979,10 +1027,10 @@
     }
   ],
   "work": {
-    "open_issues": 46,
-    "open_prs": 9,
-    "branches": 24,
-    "issues_opened_7d": 48,
+    "open_issues": 47,
+    "open_prs": 11,
+    "branches": 26,
+    "issues_opened_7d": 49,
     "issues_closed_7d": 2,
     "prs_merged_7d": 35
   }
