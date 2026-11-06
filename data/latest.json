@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T04:36:15Z",
-  "build": "5201e83a",
+  "generated_at": "2026-11-06T06:17:04Z",
+  "build": "6a4bb81b",
   "round_trip": {
     "units": 657,
     "pass": 524,
@@ -1000,16 +1000,16 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 196,
+      "seconds": 175,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 46
+          "seconds": 23
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 141
+          "seconds": 143
         },
         {
           "label": "source edit distance",
@@ -1028,12 +1028,12 @@
   ],
   "work": {
     "open_issues": 41,
-    "open_prs": 7,
-    "branches": 22,
+    "open_prs": 8,
+    "branches": 23,
     "issues_opened_7d": 53,
-    "issues_closed_7d": 12,
+    "issues_closed_7d": 0,
     "prs_merged_7d": 47,
-    "prs_approved": 2,
+    "prs_approved": 3,
     "prs_in_review": 4,
     "prs_needs_fix": 1
   }
