@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T06:17:04Z",
-  "build": "6a4bb81b",
+  "generated_at": "2026-11-11T17:32:01Z",
+  "build": "f299123e",
   "round_trip": {
     "units": 657,
     "pass": 524,
@@ -698,9 +698,9 @@
         "count": 6
       }
     ],
-    "edits": 222934,
+    "edits": 222928,
     "exact": 2,
-    "mean_similarity": 0.28656436251920125,
+    "mean_similarity": 0.28657357910906306,
     "median_similarity": 0.2508,
     "histogram": [
       15,
@@ -724,8 +724,8 @@
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 79144,
-        "mean_similarity": 0.2811539170506912
+        "edits": 79138,
+        "mean_similarity": 0.2811815668202765
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
@@ -796,8 +796,8 @@
     "prototypes_exact": 19782,
     "lines_recovered": 522283,
     "lines_source": 101462,
-    "helpers": 62652,
-    "casts": 420161,
+    "helpers": 62648,
+    "casts": 418641,
     "gotos": 296,
     "targets": [
       {
@@ -999,21 +999,21 @@
   "gates": [
     {
       "name": "T1",
-      "verdict": "PASSED",
-      "seconds": 175,
+      "verdict": "FAILED",
+      "seconds": 166,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 23
+          "seconds": 16
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 143
+          "seconds": 140
         },
         {
           "label": "source edit distance",
-          "seconds": 4
+          "seconds": 5
         },
         {
           "label": "crate tests",
@@ -1027,14 +1027,14 @@
     }
   ],
   "work": {
-    "open_issues": 41,
-    "open_prs": 8,
-    "branches": 23,
+    "open_issues": 38,
+    "open_prs": 5,
+    "branches": 20,
     "issues_opened_7d": 53,
-    "issues_closed_7d": 0,
-    "prs_merged_7d": 47,
-    "prs_approved": 3,
-    "prs_in_review": 4,
+    "issues_closed_7d": 15,
+    "prs_merged_7d": 51,
+    "prs_approved": 1,
+    "prs_in_review": 3,
     "prs_needs_fix": 1
   }
 }
