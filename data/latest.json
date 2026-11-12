@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T22:01:50Z",
-  "build": "8c9cfe83",
+  "generated_at": "2026-11-12T22:38:06Z",
+  "build": "8ab46c0f",
   "round_trip": {
     "units": 657,
     "pass": 524,
@@ -1000,20 +1000,20 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 193,
+      "seconds": 182,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 41
+          "seconds": 19
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 142
+          "seconds": 148
         },
         {
           "label": "source edit distance",
-          "seconds": 4
+          "seconds": 9
         },
         {
           "label": "crate tests",
