@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T07:53:28Z",
-  "build": "e6bf5749",
+  "generated_at": "2026-11-12T09:26:14Z",
+  "build": "10485e2f",
   "round_trip": {
     "units": 657,
     "pass": 524,
@@ -687,7 +687,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2133
+    "similarity": 0.2134
   },
   "edit_distance": {
     "exports": 657,
@@ -1000,12 +1000,12 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 183,
+      "seconds": 192,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 34
+          "seconds": 43
         },
         {
           "label": "dev slice (657 units)",
@@ -1027,14 +1027,14 @@
     }
   ],
   "work": {
-    "open_issues": 62,
-    "open_prs": 9,
-    "branches": 24,
-    "issues_opened_7d": 65,
-    "issues_closed_7d": 15,
-    "prs_merged_7d": 56,
-    "prs_approved": 6,
-    "prs_in_review": 3,
+    "open_issues": 59,
+    "open_prs": 3,
+    "branches": 18,
+    "issues_opened_7d": 67,
+    "issues_closed_7d": 20,
+    "prs_merged_7d": 62,
+    "prs_approved": 0,
+    "prs_in_review": 2,
     "prs_needs_fix": 2
   }
 }
