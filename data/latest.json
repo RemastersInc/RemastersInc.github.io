@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-13T00:43:43Z",
+  "generated_at": "2026-11-13T11:54:22Z",
   "build": "6fb7dcbc",
   "round_trip": {
     "units": 657,
@@ -1027,14 +1027,14 @@
     }
   ],
   "work": {
-    "open_issues": 84,
-    "open_prs": 7,
-    "branches": 22,
-    "issues_opened_7d": 58,
+    "open_issues": 89,
+    "open_prs": 13,
+    "branches": 28,
+    "issues_opened_7d": 63,
     "issues_closed_7d": 22,
     "prs_merged_7d": 35,
-    "prs_approved": 0,
-    "prs_in_review": 7,
-    "prs_needs_fix": 3
+    "prs_approved": 4,
+    "prs_in_review": 9,
+    "prs_needs_fix": 2
   }
 }
