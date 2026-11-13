@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-13T17:53:43Z",
-  "build": "6fb7dcbc",
+  "generated_at": "2026-11-13T19:44:26Z",
+  "build": "da79f55b",
   "round_trip": {
     "units": 657,
-    "pass": 524,
+    "pass": 528,
     "worse": 0,
     "better": 0,
     "verdicts": [
       {
         "label": "pass",
-        "count": 524
+        "count": 528
       },
       {
         "label": "fail-crash-dec",
-        "count": 85
+        "count": 81
       },
       {
         "label": "fail-diff",
@@ -37,7 +37,7 @@
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "units": 219,
-        "pass": 172
+        "pass": 176
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
@@ -219,7 +219,7 @@
       {
         "label": "dispatch",
         "units": 36,
-        "pass": 4
+        "pass": 8
       },
       {
         "label": "division",
@@ -234,7 +234,7 @@
       {
         "label": "driver-idiom",
         "units": 12,
-        "pass": 4
+        "pass": 8
       },
       {
         "label": "dynamic",
@@ -289,7 +289,7 @@
       {
         "label": "fnptr",
         "units": 54,
-        "pass": 10
+        "pass": 14
       },
       {
         "label": "fp",
@@ -319,7 +319,7 @@
       {
         "label": "heap",
         "units": 78,
-        "pass": 57
+        "pass": 61
       },
       {
         "label": "imported",
@@ -454,7 +454,7 @@
       {
         "label": "obj",
         "units": 24,
-        "pass": 4
+        "pass": 8
       },
       {
         "label": "oop",
@@ -609,7 +609,7 @@
       {
         "label": "struct-graph",
         "units": 24,
-        "pass": 4
+        "pass": 8
       },
       {
         "label": "structs",
@@ -687,7 +687,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2134
+    "similarity": 0.2132
   },
   "edit_distance": {
     "exports": 657,
@@ -698,15 +698,15 @@
         "count": 6
       }
     ],
-    "edits": 222928,
+    "edits": 223469,
     "exact": 2,
-    "mean_similarity": 0.28657357910906306,
+    "mean_similarity": 0.28609308755760376,
     "median_similarity": 0.2508,
     "histogram": [
       15,
-      184,
-      208,
-      127,
+      185,
+      210,
+      124,
       64,
       36,
       10,
@@ -718,8 +718,8 @@
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 57413,
-        "mean_similarity": 0.34827096774193567
+        "edits": 57954,
+        "mean_similarity": 0.3468294930875577
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
@@ -1000,20 +1000,20 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 177,
+      "seconds": 198,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 6
+          "seconds": 35
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 156
+          "seconds": 154
         },
         {
           "label": "source edit distance",
-          "seconds": 6
+          "seconds": 4
         },
         {
           "label": "crate tests",
@@ -1021,19 +1021,19 @@
         },
         {
           "label": "no Python",
-          "seconds": 9
+          "seconds": 5
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 100,
-    "open_prs": 19,
-    "branches": 34,
+    "open_issues": 94,
+    "open_prs": 8,
+    "branches": 23,
     "issues_opened_7d": 75,
-    "issues_closed_7d": 23,
-    "prs_merged_7d": 35,
-    "prs_approved": 16,
+    "issues_closed_7d": 29,
+    "prs_merged_7d": 48,
+    "prs_approved": 5,
     "prs_in_review": 3,
     "prs_needs_fix": 1
   }
