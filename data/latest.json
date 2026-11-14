@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-13T22:47:25Z",
-  "build": "1a6f562a",
+  "generated_at": "2026-11-14T00:28:36Z",
+  "build": "5f95a468",
   "round_trip": {
     "units": 657,
     "pass": 528,
@@ -1000,20 +1000,20 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 254,
+      "seconds": 277,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 47
+          "seconds": 50
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 142
+          "seconds": 151
         },
         {
           "label": "source edit distance",
-          "seconds": 4
+          "seconds": 16
         },
         {
           "label": "crate tests",
@@ -1021,20 +1021,20 @@
         },
         {
           "label": "no Python",
-          "seconds": 61
+          "seconds": 60
         }
       ]
     }
   ],
   "work": {
     "open_issues": 90,
-    "open_prs": 4,
-    "branches": 19,
-    "issues_opened_7d": 76,
-    "issues_closed_7d": 34,
-    "prs_merged_7d": 53,
+    "open_prs": 7,
+    "branches": 22,
+    "issues_opened_7d": 73,
+    "issues_closed_7d": 21,
+    "prs_merged_7d": 37,
     "prs_approved": 1,
-    "prs_in_review": 3,
-    "prs_needs_fix": 2
+    "prs_in_review": 5,
+    "prs_needs_fix": 3
   }
 }
