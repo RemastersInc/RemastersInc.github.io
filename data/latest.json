@@ -1,7 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T09:53:35Z",
-  "build": "5f95a468",
+  "generated_at": "2026-11-14T12:37:44Z",
+  "build": "6f33355c",
+  "committed_at": "2026-11-14T10:19:47Z",
   "round_trip": {
     "units": 657,
     "pass": 528,
@@ -698,9 +699,9 @@
         "count": 6
       }
     ],
-    "edits": 223469,
+    "edits": 223481,
     "exact": 2,
-    "mean_similarity": 0.28609308755760376,
+    "mean_similarity": 0.28608202764976964,
     "median_similarity": 0.2508,
     "histogram": [
       15,
@@ -724,8 +725,8 @@
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 79138,
-        "mean_similarity": 0.2811815668202765
+        "edits": 79150,
+        "mean_similarity": 0.28114838709677414
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
@@ -786,18 +787,18 @@
   "fp_suite": {
     "artefacts": 169,
     "functions": 53618,
-    "pass": 37539,
-    "wrong_value": 728,
-    "signature_values_ok": 6480,
-    "signature_values_wrong": 8526,
+    "pass": 37542,
+    "wrong_value": 725,
+    "signature_values_ok": 6481,
+    "signature_values_wrong": 8525,
     "compile_fail": 0,
     "refused": 345,
     "unsupported": 0,
     "prototypes_exact": 19782,
-    "lines_recovered": 522283,
+    "lines_recovered": 522327,
     "lines_source": 101462,
-    "helpers": 62648,
-    "casts": 418641,
+    "helpers": 62654,
+    "casts": 418659,
     "gotos": 296,
     "targets": [
       {
@@ -845,14 +846,14 @@
       {
         "label": "i386-x87-elf",
         "functions": 1124,
-        "pass": 613,
-        "wrong_value": 16
+        "pass": 614,
+        "wrong_value": 15
       },
       {
         "label": "i386-x87-pe",
         "functions": 1991,
-        "pass": 1040,
-        "wrong_value": 72
+        "pass": 1042,
+        "wrong_value": 70
       },
       {
         "label": "loongarch64",
@@ -985,56 +986,123 @@
       {
         "label": "gcc",
         "functions": 12491,
-        "pass": 8859,
-        "wrong_value": 205
+        "pass": 8861,
+        "wrong_value": 203
       },
       {
         "label": "zig",
         "functions": 20953,
-        "pass": 14393,
-        "wrong_value": 243
+        "pass": 14394,
+        "wrong_value": 242
       }
     ]
+  },
+  "round_trip_t3": {
+    "units": 5016,
+    "pass": 4143,
+    "verdicts": [
+      {
+        "label": "pass",
+        "count": 4143
+      },
+      {
+        "label": "fail-crash-dec",
+        "count": 600
+      },
+      {
+        "label": "fail-diff",
+        "count": 222
+      },
+      {
+        "label": "fail-compile-export",
+        "count": 25
+      },
+      {
+        "label": "fail-build-dec",
+        "count": 15
+      },
+      {
+        "label": "fail-hang-dec",
+        "count": 11
+      }
+    ],
+    "targets": [
+      {
+        "label": "amd64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 811
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O0_ssp",
+        "units": 975,
+        "pass": 800
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 795
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_Os",
+        "units": 141,
+        "pass": 114
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 837
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 786
+      }
+    ],
+    "similarity": 0.2151
   },
   "gates": [
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 277,
+      "seconds": 449,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 50
+          "seconds": 42
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 151
+          "seconds": 154
         },
         {
           "label": "source edit distance",
-          "seconds": 16
+          "seconds": 5
         },
         {
           "label": "crate tests",
           "seconds": 0
         },
         {
+          "label": "real-program gate",
+          "seconds": 179
+        },
+        {
           "label": "no Python",
-          "seconds": 60
+          "seconds": 69
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 90,
-    "open_prs": 16,
-    "branches": 31,
+    "open_issues": 87,
+    "open_prs": 8,
+    "branches": 23,
     "issues_opened_7d": 73,
-    "issues_closed_7d": 21,
-    "prs_merged_7d": 37,
-    "prs_approved": 12,
-    "prs_in_review": 4,
-    "prs_needs_fix": 2
+    "issues_closed_7d": 24,
+    "prs_merged_7d": 45,
+    "prs_approved": 6,
+    "prs_in_review": 2,
+    "prs_needs_fix": 1
   }
 }
