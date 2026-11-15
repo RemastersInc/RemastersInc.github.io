@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-15T02:01:14Z",
+  "generated_at": "2026-11-15T04:11:07Z",
   "build": "bc85fda1",
   "committed_at": "2026-11-14T23:40:48Z",
   "round_trip": {
@@ -1059,6 +1059,76 @@
       }
     ],
     "similarity": 0.2232
+  },
+  "robustness": {
+    "inputs": 406,
+    "finished": 399,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 5,
+    "failed": 0,
+    "seconds": 7420,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 216,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 5,
+        "failed": 0,
+        "seconds": 6101
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 438
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 881
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 134,
+        "rss_mb": 315,
+        "seconds": 133.04
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 641,
+        "rss_mb": 1372,
+        "seconds": 169.78
+      },
+      {
+        "label": "largest image",
+        "outcome": "finished",
+        "heap_mib": 2050,
+        "rss_mb": 3114,
+        "seconds": 291.4
+      }
+    ]
   },
   "gates": [
     {
