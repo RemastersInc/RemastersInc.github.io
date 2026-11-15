@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T18:29:22Z",
-  "build": "471e6a99",
-  "committed_at": "2026-11-14T16:55:59Z",
+  "generated_at": "2026-11-15T01:54:32Z",
+  "build": "bc85fda1",
+  "committed_at": "2026-11-14T23:40:48Z",
   "round_trip": {
     "units": 657,
     "pass": 528,
@@ -688,7 +688,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2136
+    "similarity": 0.2224
   },
   "edit_distance": {
     "exports": 657,
@@ -699,40 +699,40 @@
         "count": 6
       }
     ],
-    "edits": 222441,
+    "edits": 213868,
     "exact": 2,
-    "mean_similarity": 0.286610599078341,
-    "median_similarity": 0.2508,
+    "mean_similarity": 0.2970597542242705,
+    "median_similarity": 0.2604,
     "histogram": [
-      15,
-      184,
-      209,
-      126,
-      64,
-      36,
-      10,
+      14,
+      167,
+      203,
+      130,
+      76,
+      42,
+      11,
       2,
-      3,
+      4,
       2
     ],
     "targets": [
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 57777,
-        "mean_similarity": 0.3473645161290324
+        "edits": 55938,
+        "mean_similarity": 0.36121612903225825
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 78631,
-        "mean_similarity": 0.28179216589861744
+        "edits": 76067,
+        "mean_similarity": 0.2896986175115207
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 86033,
-        "mean_similarity": 0.23067511520737324
+        "edits": 81863,
+        "mean_similarity": 0.24026451612903227
       }
     ]
   },
@@ -776,7 +776,7 @@
       }
     ],
     "type_measured": 651,
-    "type_mean": 0.34579102964669706,
+    "type_mean": 0.32390264316436224,
     "type_unmeasured": [
       {
         "label": "noGT",
@@ -798,7 +798,7 @@
     "lines_recovered": 519805,
     "lines_source": 101462,
     "helpers": 62654,
-    "casts": 418668,
+    "casts": 418589,
     "gotos": 296,
     "targets": [
       {
@@ -997,87 +997,24 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4143,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4143
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 600
-      },
-      {
-        "label": "fail-diff",
-        "count": 222
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-build-dec",
-        "count": 15
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 811
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 800
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 795
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 114
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 837
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 786
-      }
-    ],
-    "similarity": 0.2156
-  },
   "gates": [
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 450,
+      "seconds": 675,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 32
+          "seconds": 115
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 161
+          "seconds": 162
         },
         {
           "label": "source edit distance",
-          "seconds": 7
+          "seconds": 32
         },
         {
           "label": "crate tests",
@@ -1085,24 +1022,24 @@
         },
         {
           "label": "real-program gate",
-          "seconds": 183
+          "seconds": 280
         },
         {
           "label": "no Python",
-          "seconds": 67
+          "seconds": 86
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 85,
-    "open_prs": 8,
-    "branches": 23,
+    "open_issues": 83,
+    "open_prs": 12,
+    "branches": 28,
     "issues_opened_7d": 73,
-    "issues_closed_7d": 26,
-    "prs_merged_7d": 49,
+    "issues_closed_7d": 28,
+    "prs_merged_7d": 52,
     "prs_approved": 4,
-    "prs_in_review": 3,
-    "prs_needs_fix": 2
+    "prs_in_review": 5,
+    "prs_needs_fix": 6
   }
 }
