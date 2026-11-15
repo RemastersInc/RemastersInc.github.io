@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-15T01:54:32Z",
+  "generated_at": "2026-11-15T02:01:14Z",
   "build": "bc85fda1",
   "committed_at": "2026-11-14T23:40:48Z",
   "round_trip": {
@@ -997,6 +997,69 @@
       }
     ]
   },
+  "round_trip_t3": {
+    "units": 5016,
+    "pass": 4143,
+    "verdicts": [
+      {
+        "label": "pass",
+        "count": 4143
+      },
+      {
+        "label": "fail-crash-dec",
+        "count": 600
+      },
+      {
+        "label": "fail-diff",
+        "count": 222
+      },
+      {
+        "label": "fail-compile-export",
+        "count": 25
+      },
+      {
+        "label": "fail-build-dec",
+        "count": 15
+      },
+      {
+        "label": "fail-hang-dec",
+        "count": 11
+      }
+    ],
+    "targets": [
+      {
+        "label": "amd64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 811
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O0_ssp",
+        "units": 975,
+        "pass": 800
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 795
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_Os",
+        "units": 141,
+        "pass": 114
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 837
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 786
+      }
+    ],
+    "similarity": 0.2232
+  },
   "gates": [
     {
       "name": "T1",
@@ -1039,7 +1102,7 @@
     "issues_closed_7d": 28,
     "prs_merged_7d": 52,
     "prs_approved": 4,
-    "prs_in_review": 5,
+    "prs_in_review": 4,
     "prs_needs_fix": 6
   }
 }
