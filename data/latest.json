@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T09:20:21Z",
+  "generated_at": "2026-11-16T12:11:18Z",
   "build": "f30ff6dc",
   "committed_at": "2026-11-16T07:43:12Z",
   "round_trip": {
@@ -1060,6 +1060,75 @@
     ],
     "similarity": 0.224
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 402,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 2,
+    "failed": 0,
+    "seconds": 8238,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 219,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 2,
+        "failed": 0,
+        "seconds": 6332
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 728
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 1178
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 134,
+        "rss_mb": 235,
+        "seconds": 175.04
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 641,
+        "rss_mb": 1302,
+        "seconds": 215.15
+      },
+      {
+        "label": "largest image",
+        "outcome": "not-run",
+        "rss_mb": 0,
+        "seconds": 0.0
+      }
+    ]
+  },
   "gates": [
     {
       "name": "T1",
@@ -1101,8 +1170,8 @@
     "issues_opened_7d": 73,
     "issues_closed_7d": 34,
     "prs_merged_7d": 66,
-    "prs_approved": 2,
-    "prs_in_review": 8,
-    "prs_needs_fix": 4
+    "prs_approved": 3,
+    "prs_in_review": 6,
+    "prs_needs_fix": 6
   }
 }
