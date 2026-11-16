@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T14:19:15Z",
-  "build": "60b35bb0",
-  "committed_at": "2026-11-16T12:53:24Z",
+  "generated_at": "2026-11-16T16:49:58Z",
+  "build": "1805e85d",
+  "committed_at": "2026-11-16T14:09:01Z",
   "round_trip": {
     "units": 657,
-    "pass": 541,
+    "pass": 546,
     "worse": 0,
     "better": 1,
     "verdicts": [
       {
         "label": "pass",
-        "count": 541
+        "count": 546
       },
       {
         "label": "fail-crash-dec",
-        "count": 71
+        "count": 66
       },
       {
         "label": "fail-compile-export",
@@ -38,7 +38,7 @@
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "units": 219,
-        "pass": 180
+        "pass": 185
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
@@ -105,7 +105,7 @@
       {
         "label": "bitflags",
         "units": 12,
-        "pass": 8
+        "pass": 10
       },
       {
         "label": "bitmask",
@@ -125,7 +125,7 @@
       {
         "label": "bufout",
         "units": 102,
-        "pass": 82
+        "pass": 84
       },
       {
         "label": "builder",
@@ -140,7 +140,7 @@
       {
         "label": "by-value",
         "units": 12,
-        "pass": 11
+        "pass": 12
       },
       {
         "label": "c99-inline",
@@ -200,12 +200,12 @@
       {
         "label": "ctrl",
         "units": 63,
-        "pass": 52
+        "pass": 53
       },
       {
         "label": "data",
         "units": 39,
-        "pass": 36
+        "pass": 38
       },
       {
         "label": "defer",
@@ -255,7 +255,7 @@
       {
         "label": "enums",
         "units": 24,
-        "pass": 22
+        "pass": 23
       },
       {
         "label": "error-path",
@@ -375,7 +375,7 @@
       {
         "label": "lookup-tables",
         "units": 27,
-        "pass": 25
+        "pass": 26
       },
       {
         "label": "loop-invariant",
@@ -390,7 +390,7 @@
       {
         "label": "macros",
         "units": 27,
-        "pass": 23
+        "pass": 25
       },
       {
         "label": "magic-constants",
@@ -445,7 +445,7 @@
       {
         "label": "nesting",
         "units": 12,
-        "pass": 11
+        "pass": 12
       },
       {
         "label": "non-local-exit",
@@ -530,7 +530,7 @@
       {
         "label": "rodata",
         "units": 12,
-        "pass": 10
+        "pass": 11
       },
       {
         "label": "rotate",
@@ -585,7 +585,7 @@
       {
         "label": "state-machine",
         "units": 36,
-        "pass": 30
+        "pass": 33
       },
       {
         "label": "static-local",
@@ -605,7 +605,7 @@
       {
         "label": "strings",
         "units": 96,
-        "pass": 78
+        "pass": 79
       },
       {
         "label": "struct-graph",
@@ -615,12 +615,12 @@
       {
         "label": "structs",
         "units": 12,
-        "pass": 11
+        "pass": 12
       },
       {
         "label": "switch",
         "units": 24,
-        "pass": 18
+        "pass": 21
       },
       {
         "label": "symbols",
@@ -640,7 +640,7 @@
       {
         "label": "table-driven",
         "units": 12,
-        "pass": 10
+        "pass": 11
       },
       {
         "label": "ternary",
@@ -688,7 +688,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2225
+    "similarity": 0.2224
   },
   "edit_distance": {
     "exports": 657,
@@ -699,15 +699,15 @@
         "count": 6
       }
     ],
-    "edits": 208245,
+    "edits": 208816,
     "exact": 2,
-    "mean_similarity": 0.30209800307219675,
-    "median_similarity": 0.2704,
+    "mean_similarity": 0.3018563748079881,
+    "median_similarity": 0.27,
     "histogram": [
       14,
-      161,
+      162,
       199,
-      132,
+      131,
       82,
       46,
       8,
@@ -719,8 +719,8 @@
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 54358,
-        "mean_similarity": 0.36705391705069146
+        "edits": 54929,
+        "mean_similarity": 0.3663290322580646
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
@@ -740,9 +740,9 @@
     "exports": 657,
     "ged_measured": 651,
     "ged_exact": 274,
-    "ged_mean": 26.89400921658986,
+    "ged_mean": 28.023041474654377,
     "ged_median": 5.0,
-    "ged_p90": 56.0,
+    "ged_p90": 62.0,
     "ged_buckets": [
       {
         "label": "0",
@@ -758,15 +758,15 @@
       },
       {
         "label": "6-10",
-        "count": 72
+        "count": 71
       },
       {
         "label": "11-20",
-        "count": 82
+        "count": 81
       },
       {
         "label": "21+",
-        "count": 138
+        "count": 140
       }
     ],
     "ged_unmeasured": [
@@ -997,74 +997,11 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4169,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4169
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 580
-      },
-      {
-        "label": "fail-diff",
-        "count": 216
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-build-dec",
-        "count": 15
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 815
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 804
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 804
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 114
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 841
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 791
-      }
-    ],
-    "similarity": 0.224
-  },
   "gates": [
     {
       "name": "T1",
       "verdict": "FAILED",
-      "seconds": 338,
+      "seconds": 610,
       "budget_seconds": 600,
       "steps": [
         {
@@ -1073,36 +1010,36 @@
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 159
+          "seconds": 396
         },
         {
           "label": "source edit distance",
-          "seconds": 20
+          "seconds": 11
         },
         {
           "label": "crate tests",
-          "seconds": 1
+          "seconds": 0
         },
         {
           "label": "real-program gate",
-          "seconds": 38
+          "seconds": 34
         },
         {
           "label": "no Python",
-          "seconds": 117
+          "seconds": 166
         }
       ]
     }
   ],
   "work": {
     "open_issues": 76,
-    "open_prs": 9,
-    "branches": 25,
+    "open_prs": 11,
+    "branches": 27,
     "issues_opened_7d": 73,
     "issues_closed_7d": 35,
     "prs_merged_7d": 69,
     "prs_approved": 2,
-    "prs_in_review": 5,
+    "prs_in_review": 7,
     "prs_needs_fix": 5
   }
 }
