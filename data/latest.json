@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T05:53:40Z",
-  "build": "723af461",
-  "committed_at": "2026-11-15T21:17:13Z",
+  "generated_at": "2026-11-16T08:48:49Z",
+  "build": "f30ff6dc",
+  "committed_at": "2026-11-16T07:43:12Z",
   "round_trip": {
     "units": 657,
-    "pass": 540,
+    "pass": 541,
     "worse": 0,
-    "better": 0,
+    "better": 1,
     "verdicts": [
       {
         "label": "pass",
-        "count": 540
+        "count": 541
       },
       {
         "label": "fail-crash-dec",
@@ -23,7 +23,7 @@
       },
       {
         "label": "fail-diff",
-        "count": 15
+        "count": 14
       },
       {
         "label": "fail-build-dec",
@@ -43,7 +43,7 @@
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "units": 219,
-        "pass": 166
+        "pass": 167
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
@@ -325,7 +325,7 @@
       {
         "label": "imported",
         "units": 54,
-        "pass": 53
+        "pass": 54
       },
       {
         "label": "inline",
@@ -355,7 +355,7 @@
       {
         "label": "libc",
         "units": 48,
-        "pass": 35
+        "pass": 36
       },
       {
         "label": "lifo",
@@ -405,7 +405,7 @@
       {
         "label": "mem",
         "units": 27,
-        "pass": 26
+        "pass": 27
       },
       {
         "label": "memmove",
@@ -605,7 +605,7 @@
       {
         "label": "strings",
         "units": 96,
-        "pass": 77
+        "pass": 78
       },
       {
         "label": "struct-graph",
@@ -688,7 +688,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2227
+    "similarity": 0.2225
   },
   "edit_distance": {
     "exports": 657,
@@ -699,9 +699,9 @@
         "count": 6
       }
     ],
-    "edits": 208229,
+    "edits": 208245,
     "exact": 2,
-    "mean_similarity": 0.3021104454685101,
+    "mean_similarity": 0.30209800307219675,
     "median_similarity": 0.2704,
     "histogram": [
       14,
@@ -725,8 +725,8 @@
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 73756,
-        "mean_similarity": 0.29607327188940075
+        "edits": 73772,
+        "mean_similarity": 0.29603594470046063
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
@@ -787,18 +787,18 @@
   "fp_suite": {
     "artefacts": 169,
     "functions": 53618,
-    "pass": 37544,
-    "wrong_value": 725,
-    "signature_values_ok": 6489,
-    "signature_values_wrong": 8515,
+    "pass": 38080,
+    "wrong_value": 675,
+    "signature_values_ok": 6581,
+    "signature_values_wrong": 7937,
     "compile_fail": 0,
     "refused": 345,
     "unsupported": 0,
-    "prototypes_exact": 19784,
-    "lines_recovered": 519805,
+    "prototypes_exact": 19819,
+    "lines_recovered": 520708,
     "lines_source": 101462,
-    "helpers": 62654,
-    "casts": 294643,
+    "helpers": 61674,
+    "casts": 292828,
     "gotos": 296,
     "targets": [
       {
@@ -816,44 +816,44 @@
       {
         "label": "arm-soft",
         "functions": 1706,
-        "pass": 844,
-        "wrong_value": 9
+        "pass": 864,
+        "wrong_value": 5
       },
       {
         "label": "arm-softfp",
         "functions": 1706,
-        "pass": 969,
-        "wrong_value": 10
+        "pass": 996,
+        "wrong_value": 8
       },
       {
         "label": "armhf-vfp",
         "functions": 2027,
-        "pass": 1421,
-        "wrong_value": 37
+        "pass": 1484,
+        "wrong_value": 32
       },
       {
         "label": "i386-sse2-elf",
         "functions": 1160,
-        "pass": 566,
-        "wrong_value": 9
+        "pass": 601,
+        "wrong_value": 17
       },
       {
         "label": "i386-sse2-pe",
         "functions": 1192,
-        "pass": 509,
-        "wrong_value": 22
+        "pass": 554,
+        "wrong_value": 16
       },
       {
         "label": "i386-x87-elf",
         "functions": 1124,
-        "pass": 616,
-        "wrong_value": 15
+        "pass": 654,
+        "wrong_value": 23
       },
       {
         "label": "i386-x87-pe",
         "functions": 1991,
-        "pass": 1042,
-        "wrong_value": 70
+        "pass": 1118,
+        "wrong_value": 63
       },
       {
         "label": "loongarch64",
@@ -864,31 +864,31 @@
       {
         "label": "mips32-hard",
         "functions": 1124,
-        "pass": 692,
-        "wrong_value": 49
+        "pass": 745,
+        "wrong_value": 16
       },
       {
         "label": "mips32-soft",
         "functions": 1124,
-        "pass": 471,
-        "wrong_value": 23
+        "pass": 473,
+        "wrong_value": 27
       },
       {
         "label": "mips64-n64",
         "functions": 1318,
-        "pass": 1059,
-        "wrong_value": 18
+        "pass": 1061,
+        "wrong_value": 16
       },
       {
         "label": "mipsel-hard",
         "functions": 1124,
-        "pass": 736,
-        "wrong_value": 4
+        "pass": 755,
+        "wrong_value": 5
       },
       {
         "label": "ppc32-hard",
         "functions": 1124,
-        "pass": 460,
+        "pass": 462,
         "wrong_value": 86
       },
       {
@@ -900,8 +900,8 @@
       {
         "label": "rv32gc",
         "functions": 1160,
-        "pass": 746,
-        "wrong_value": 8
+        "pass": 783,
+        "wrong_value": 7
       },
       {
         "label": "rv64gc",
@@ -924,20 +924,20 @@
       {
         "label": "sparc64",
         "functions": 1318,
-        "pass": 968,
+        "pass": 976,
         "wrong_value": 57
       },
       {
         "label": "thumb-m4f",
         "functions": 1674,
-        "pass": 1082,
-        "wrong_value": 24
+        "pass": 1143,
+        "wrong_value": 21
       },
       {
         "label": "thumb-m7",
         "functions": 1674,
-        "pass": 1031,
-        "wrong_value": 17
+        "pass": 1075,
+        "wrong_value": 13
       },
       {
         "label": "x64-avx2-elf",
@@ -954,8 +954,8 @@
       {
         "label": "x64-macho",
         "functions": 2429,
-        "pass": 1958,
-        "wrong_value": 31
+        "pass": 1960,
+        "wrong_value": 29
       },
       {
         "label": "x64-pe",
@@ -966,8 +966,8 @@
       {
         "label": "x64-sse2-elf",
         "functions": 4438,
-        "pass": 3549,
-        "wrong_value": 18
+        "pass": 3551,
+        "wrong_value": 16
       }
     ],
     "compilers": [
@@ -980,104 +980,41 @@
       {
         "label": "clang",
         "functions": 17398,
-        "pass": 11963,
-        "wrong_value": 250
+        "pass": 12140,
+        "wrong_value": 235
       },
       {
         "label": "gcc",
         "functions": 12491,
-        "pass": 8861,
-        "wrong_value": 203
+        "pass": 9027,
+        "wrong_value": 153
       },
       {
         "label": "zig",
         "functions": 20953,
-        "pass": 14395,
-        "wrong_value": 242
+        "pass": 14588,
+        "wrong_value": 257
       }
     ]
-  },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4164,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4164
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 583
-      },
-      {
-        "label": "fail-diff",
-        "count": 218
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-build-dec",
-        "count": 15
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 815
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 804
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 799
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 114
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 841
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 791
-      }
-    ],
-    "similarity": 0.2241
   },
   "gates": [
     {
       "name": "T1",
-      "verdict": "FAILED",
-      "seconds": 722,
+      "verdict": "PASSED",
+      "seconds": 456,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 77
+          "seconds": 53
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 330
+          "seconds": 160
         },
         {
           "label": "source edit distance",
-          "seconds": 46
+          "seconds": 5
         },
         {
           "label": "crate tests",
@@ -1085,24 +1022,24 @@
         },
         {
           "label": "real-program gate",
-          "seconds": 92
+          "seconds": 181
         },
         {
           "label": "no Python",
-          "seconds": 177
+          "seconds": 57
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 79,
-    "open_prs": 11,
-    "branches": 27,
+    "open_issues": 77,
+    "open_prs": 8,
+    "branches": 24,
     "issues_opened_7d": 73,
-    "issues_closed_7d": 32,
-    "prs_merged_7d": 62,
-    "prs_approved": 6,
+    "issues_closed_7d": 34,
+    "prs_merged_7d": 66,
+    "prs_approved": 2,
     "prs_in_review": 4,
-    "prs_needs_fix": 2
+    "prs_needs_fix": 4
   }
 }
