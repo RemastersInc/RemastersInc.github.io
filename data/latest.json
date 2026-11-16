@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T17:07:27Z",
+  "generated_at": "2026-11-16T20:00:43Z",
   "build": "1805e85d",
   "committed_at": "2026-11-16T14:09:01Z",
   "round_trip": {
@@ -1060,6 +1060,76 @@
     ],
     "similarity": 0.2242
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 399,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 5,
+    "failed": 0,
+    "seconds": 8682,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 218,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 3,
+        "failed": 0,
+        "seconds": 7005
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 405
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 12,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 2,
+        "failed": 0,
+        "seconds": 1272
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 135,
+        "rss_mb": 307,
+        "seconds": 151.56
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 641,
+        "rss_mb": 1305,
+        "seconds": 270.75
+      },
+      {
+        "label": "largest image",
+        "outcome": "finished",
+        "heap_mib": 2056,
+        "rss_mb": 2864,
+        "seconds": 396.48
+      }
+    ]
+  },
   "gates": [
     {
       "name": "T1",
@@ -1101,8 +1171,8 @@
     "issues_opened_7d": 73,
     "issues_closed_7d": 35,
     "prs_merged_7d": 69,
-    "prs_approved": 2,
-    "prs_in_review": 7,
+    "prs_approved": 4,
+    "prs_in_review": 6,
     "prs_needs_fix": 5
   }
 }
