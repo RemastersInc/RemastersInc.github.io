@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-16T12:11:18Z",
-  "build": "f30ff6dc",
-  "committed_at": "2026-11-16T07:43:12Z",
+  "generated_at": "2026-11-16T14:03:21Z",
+  "build": "60b35bb0",
+  "committed_at": "2026-11-16T12:53:24Z",
   "round_trip": {
     "units": 657,
     "pass": 541,
@@ -997,181 +997,49 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4169,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4169
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 580
-      },
-      {
-        "label": "fail-diff",
-        "count": 216
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-build-dec",
-        "count": 15
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 815
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 804
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 804
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 114
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 841
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 791
-      }
-    ],
-    "similarity": 0.224
-  },
-  "robustness": {
-    "inputs": 406,
-    "finished": 402,
-    "stopped": 2,
-    "killed": 0,
-    "timed_out": 2,
-    "failed": 0,
-    "seconds": 8238,
-    "limit_mib": 2048,
-    "watch_mb": 5120,
-    "timeout_seconds": 300,
-    "image_limit_mib": 4096,
-    "image_watch_mb": 13824,
-    "image_timeout_seconds": 1200,
-    "collections": [
-      {
-        "label": "decbench",
-        "inputs": 221,
-        "finished": 219,
-        "stopped": 0,
-        "killed": 0,
-        "timed_out": 2,
-        "failed": 0,
-        "seconds": 6332
-      },
-      {
-        "label": "fp",
-        "inputs": 169,
-        "finished": 169,
-        "stopped": 0,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 728
-      },
-      {
-        "label": "real",
-        "inputs": 16,
-        "finished": 14,
-        "stopped": 2,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 1178
-      }
-    ],
-    "references": [
-      {
-        "label": "program A, -O0",
-        "outcome": "finished",
-        "heap_mib": 134,
-        "rss_mb": 235,
-        "seconds": 175.04
-      },
-      {
-        "label": "program B, -O0",
-        "outcome": "finished",
-        "heap_mib": 641,
-        "rss_mb": 1302,
-        "seconds": 215.15
-      },
-      {
-        "label": "largest image",
-        "outcome": "not-run",
-        "rss_mb": 0,
-        "seconds": 0.0
-      }
-    ]
-  },
   "gates": [
     {
       "name": "T1",
-      "verdict": "PASSED",
-      "seconds": 456,
+      "verdict": "FAILED",
+      "seconds": 338,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 53
+          "seconds": 3
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 160
+          "seconds": 159
         },
         {
           "label": "source edit distance",
-          "seconds": 5
+          "seconds": 20
         },
         {
           "label": "crate tests",
-          "seconds": 0
+          "seconds": 1
         },
         {
           "label": "real-program gate",
-          "seconds": 181
+          "seconds": 38
         },
         {
           "label": "no Python",
-          "seconds": 57
+          "seconds": 117
         }
       ]
     }
   ],
   "work": {
     "open_issues": 77,
-    "open_prs": 11,
-    "branches": 27,
+    "open_prs": 10,
+    "branches": 26,
     "issues_opened_7d": 73,
     "issues_closed_7d": 34,
-    "prs_merged_7d": 66,
+    "prs_merged_7d": 68,
     "prs_approved": 3,
-    "prs_in_review": 6,
-    "prs_needs_fix": 6
+    "prs_in_review": 5,
+    "prs_needs_fix": 5
   }
 }
