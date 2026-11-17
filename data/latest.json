@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-17T16:26:44Z",
+  "generated_at": "2026-11-17T17:53:56Z",
   "build": "294c6650",
   "committed_at": "2026-11-17T12:43:46Z",
   "round_trip": {
@@ -1060,75 +1060,6 @@
     ],
     "similarity": 0.2265
   },
-  "robustness": {
-    "inputs": 406,
-    "finished": 402,
-    "stopped": 2,
-    "killed": 0,
-    "timed_out": 2,
-    "failed": 0,
-    "seconds": 7229,
-    "limit_mib": 2048,
-    "watch_mb": 5120,
-    "timeout_seconds": 300,
-    "image_limit_mib": 4096,
-    "image_watch_mb": 13824,
-    "image_timeout_seconds": 1200,
-    "collections": [
-      {
-        "label": "decbench",
-        "inputs": 221,
-        "finished": 219,
-        "stopped": 0,
-        "killed": 0,
-        "timed_out": 2,
-        "failed": 0,
-        "seconds": 5936
-      },
-      {
-        "label": "fp",
-        "inputs": 169,
-        "finished": 169,
-        "stopped": 0,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 398
-      },
-      {
-        "label": "real",
-        "inputs": 16,
-        "finished": 14,
-        "stopped": 2,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 895
-      }
-    ],
-    "references": [
-      {
-        "label": "program A, -O0",
-        "outcome": "finished",
-        "heap_mib": 131,
-        "rss_mb": 308,
-        "seconds": 98.96
-      },
-      {
-        "label": "program B, -O0",
-        "outcome": "finished",
-        "heap_mib": 641,
-        "rss_mb": 1295,
-        "seconds": 179.84
-      },
-      {
-        "label": "largest image",
-        "outcome": "not-run",
-        "rss_mb": 0,
-        "seconds": 0.0
-      }
-    ]
-  },
   "gates": [
     {
       "name": "T1",
@@ -1165,13 +1096,13 @@
   ],
   "work": {
     "open_issues": 76,
-    "open_prs": 12,
-    "branches": 28,
+    "open_prs": 13,
+    "branches": 29,
     "issues_opened_7d": 74,
     "issues_closed_7d": 36,
     "prs_merged_7d": 76,
-    "prs_approved": 2,
-    "prs_in_review": 9,
-    "prs_needs_fix": 4
+    "prs_approved": 5,
+    "prs_in_review": 7,
+    "prs_needs_fix": 3
   }
 }
