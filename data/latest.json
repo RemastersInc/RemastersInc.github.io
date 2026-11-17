@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-17T17:53:56Z",
-  "build": "294c6650",
-  "committed_at": "2026-11-17T12:43:46Z",
+  "generated_at": "2026-11-17T21:42:03Z",
+  "build": "8ce66a3c",
+  "committed_at": "2026-11-17T19:37:23Z",
   "round_trip": {
     "units": 657,
     "pass": 546,
@@ -688,7 +688,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2238
+    "similarity": 0.2254
   },
   "edit_distance": {
     "exports": 657,
@@ -699,18 +699,18 @@
         "count": 6
       }
     ],
-    "edits": 207282,
+    "edits": 204375,
     "exact": 2,
-    "mean_similarity": 0.3068089093701999,
-    "median_similarity": 0.271,
+    "mean_similarity": 0.309035637480799,
+    "median_similarity": 0.2759,
     "histogram": [
       14,
-      161,
-      194,
+      148,
+      204,
       120,
-      91,
-      50,
-      12,
+      92,
+      51,
+      13,
       3,
       4,
       2
@@ -719,34 +719,34 @@
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 53756,
-        "mean_similarity": 0.3774866359447006
+        "edits": 52814,
+        "mean_similarity": 0.38070414746543807
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 73553,
-        "mean_similarity": 0.2970350230414745
+        "edits": 72975,
+        "mean_similarity": 0.29822488479262654
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 79973,
-        "mean_similarity": 0.245905069124424
+        "edits": 78586,
+        "mean_similarity": 0.24817788018433198
       }
     ]
   },
   "structure": {
     "exports": 657,
     "ged_measured": 651,
-    "ged_exact": 277,
-    "ged_mean": 26.937019969278033,
-    "ged_median": 4.0,
-    "ged_p90": 51.0,
+    "ged_exact": 297,
+    "ged_mean": 25.207373271889402,
+    "ged_median": 3.0,
+    "ged_p90": 45.0,
     "ged_buckets": [
       {
         "label": "0",
-        "count": 277
+        "count": 297
       },
       {
         "label": "1-2",
@@ -754,19 +754,19 @@
       },
       {
         "label": "3-5",
-        "count": 72
+        "count": 80
       },
       {
         "label": "6-10",
-        "count": 72
+        "count": 75
       },
       {
         "label": "11-20",
-        "count": 85
+        "count": 80
       },
       {
         "label": "21+",
-        "count": 136
+        "count": 110
       }
     ],
     "ged_unmeasured": [
@@ -776,7 +776,7 @@
       }
     ],
     "type_measured": 651,
-    "type_mean": 0.32404228847926236,
+    "type_mean": 0.3238228460829491,
     "type_unmeasured": [
       {
         "label": "noGT",
@@ -997,83 +997,20 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4221,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4221
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 517
-      },
-      {
-        "label": "fail-diff",
-        "count": 227
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-build-dec",
-        "count": 15
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 830
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 819
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 804
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 114
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 853
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 801
-      }
-    ],
-    "similarity": 0.2265
-  },
   "gates": [
     {
       "name": "T1",
       "verdict": "FAILED",
-      "seconds": 247,
+      "seconds": 256,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 24
+          "seconds": 31
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 140
+          "seconds": 147
         },
         {
           "label": "source edit distance",
@@ -1085,24 +1022,24 @@
         },
         {
           "label": "real-program gate",
-          "seconds": 22
+          "seconds": 19
         },
         {
           "label": "no Python",
-          "seconds": 57
+          "seconds": 55
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 76,
-    "open_prs": 13,
-    "branches": 29,
-    "issues_opened_7d": 74,
+    "open_issues": 78,
+    "open_prs": 16,
+    "branches": 32,
+    "issues_opened_7d": 76,
     "issues_closed_7d": 36,
-    "prs_merged_7d": 76,
-    "prs_approved": 5,
-    "prs_in_review": 7,
-    "prs_needs_fix": 3
+    "prs_merged_7d": 78,
+    "prs_approved": 7,
+    "prs_in_review": 8,
+    "prs_needs_fix": 2
   }
 }
