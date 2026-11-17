@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-17T09:04:25Z",
+  "generated_at": "2026-11-17T11:36:09Z",
   "build": "94e02a5c",
   "committed_at": "2026-11-17T07:49:13Z",
   "round_trip": {
@@ -1060,6 +1060,75 @@
     ],
     "similarity": 0.2266
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 402,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 2,
+    "failed": 0,
+    "seconds": 7200,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 219,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 2,
+        "failed": 0,
+        "seconds": 5823
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 439
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 938
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 131,
+        "rss_mb": 313,
+        "seconds": 101.1
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 641,
+        "rss_mb": 1288,
+        "seconds": 204.1
+      },
+      {
+        "label": "largest image",
+        "outcome": "not-run",
+        "rss_mb": 0,
+        "seconds": 0.0
+      }
+    ]
+  },
   "gates": [
     {
       "name": "T1",
@@ -1101,8 +1170,8 @@
     "issues_opened_7d": 73,
     "issues_closed_7d": 36,
     "prs_merged_7d": 75,
-    "prs_approved": 3,
+    "prs_approved": 4,
     "prs_in_review": 6,
-    "prs_needs_fix": 5
+    "prs_needs_fix": 4
   }
 }
