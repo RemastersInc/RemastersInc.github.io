@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T12:16:31Z",
-  "build": "7aa6f56d",
-  "committed_at": "2026-11-18T11:01:16Z",
+  "generated_at": "2026-11-18T14:34:06Z",
+  "build": "caadcd8d",
+  "committed_at": "2026-11-18T11:49:00Z",
   "round_trip": {
     "units": 657,
     "pass": 573,
@@ -993,79 +993,20 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4347,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4347
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 410
-      },
-      {
-        "label": "fail-diff",
-        "count": 223
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 859
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 848
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 821
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 119
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 886
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 814
-      }
-    ],
-    "similarity": 0.2626
-  },
   "gates": [
     {
       "name": "T1",
-      "verdict": "PASSED",
-      "seconds": 402,
+      "verdict": "FAILED",
+      "seconds": 258,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 33
+          "seconds": 3
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 148
+          "seconds": 161
         },
         {
           "label": "source edit distance",
@@ -1077,11 +1018,11 @@
         },
         {
           "label": "real-program gate",
-          "seconds": 156
+          "seconds": 22
         },
         {
           "label": "no Python",
-          "seconds": 61
+          "seconds": 68
         }
       ]
     }
@@ -1093,8 +1034,8 @@
     "issues_opened_7d": 79,
     "issues_closed_7d": 46,
     "prs_merged_7d": 101,
-    "prs_approved": 3,
-    "prs_in_review": 11,
-    "prs_needs_fix": 7
+    "prs_approved": 9,
+    "prs_in_review": 5,
+    "prs_needs_fix": 2
   }
 }
