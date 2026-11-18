@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T14:34:06Z",
+  "generated_at": "2026-11-18T14:46:05Z",
   "build": "caadcd8d",
   "committed_at": "2026-11-18T11:49:00Z",
   "round_trip": {
@@ -992,6 +992,65 @@
         "wrong_value": 246
       }
     ]
+  },
+  "round_trip_t3": {
+    "units": 5016,
+    "pass": 4347,
+    "verdicts": [
+      {
+        "label": "pass",
+        "count": 4347
+      },
+      {
+        "label": "fail-crash-dec",
+        "count": 410
+      },
+      {
+        "label": "fail-diff",
+        "count": 223
+      },
+      {
+        "label": "fail-compile-export",
+        "count": 25
+      },
+      {
+        "label": "fail-hang-dec",
+        "count": 11
+      }
+    ],
+    "targets": [
+      {
+        "label": "amd64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 859
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O0_ssp",
+        "units": 975,
+        "pass": 848
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 821
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_Os",
+        "units": 141,
+        "pass": 119
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 886
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 814
+      }
+    ],
+    "similarity": 0.2626
   },
   "gates": [
     {
