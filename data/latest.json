@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T18:26:06Z",
+  "generated_at": "2026-11-18T18:46:40Z",
   "build": "66f4776e",
   "committed_at": "2026-11-18T15:32:59Z",
   "round_trip": {
@@ -993,6 +993,65 @@
       }
     ]
   },
+  "round_trip_t3": {
+    "units": 5016,
+    "pass": 4357,
+    "verdicts": [
+      {
+        "label": "pass",
+        "count": 4357
+      },
+      {
+        "label": "fail-crash-dec",
+        "count": 412
+      },
+      {
+        "label": "fail-diff",
+        "count": 211
+      },
+      {
+        "label": "fail-compile-export",
+        "count": 25
+      },
+      {
+        "label": "fail-hang-dec",
+        "count": 11
+      }
+    ],
+    "targets": [
+      {
+        "label": "amd64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 859
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O0_ssp",
+        "units": 975,
+        "pass": 860
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 819
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_Os",
+        "units": 141,
+        "pass": 119
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 886
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 814
+      }
+    ],
+    "similarity": 0.2626
+  },
   "gates": [
     {
       "name": "T1",
@@ -1028,13 +1087,13 @@
     }
   ],
   "work": {
-    "open_issues": 68,
-    "open_prs": 10,
-    "branches": 27,
+    "open_issues": 66,
+    "open_prs": 6,
+    "branches": 23,
     "issues_opened_7d": 79,
-    "issues_closed_7d": 49,
-    "prs_merged_7d": 109,
-    "prs_approved": 7,
+    "issues_closed_7d": 51,
+    "prs_merged_7d": 113,
+    "prs_approved": 3,
     "prs_in_review": 3,
     "prs_needs_fix": 1
   }
