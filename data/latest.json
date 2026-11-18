@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T18:46:40Z",
-  "build": "66f4776e",
-  "committed_at": "2026-11-18T15:32:59Z",
+  "generated_at": "2026-11-18T20:53:54Z",
+  "build": "33931eee",
+  "committed_at": "2026-11-18T18:27:08Z",
   "round_trip": {
     "units": 657,
     "pass": 573,
@@ -684,7 +684,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2807
+    "similarity": 0.2811
   },
   "edit_distance": {
     "exports": 657,
@@ -993,83 +993,28 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4357,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4357
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 412
-      },
-      {
-        "label": "fail-diff",
-        "count": 211
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 859
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 860
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 819
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 119
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 886
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 814
-      }
-    ],
-    "similarity": 0.2626
-  },
   "gates": [
     {
       "name": "T1",
-      "verdict": "PASSED",
-      "seconds": 452,
+      "verdict": "FAILED",
+      "seconds": 283,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 62
+          "seconds": 38
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 160
+          "seconds": 152
         },
         {
           "label": "source edit distance",
-          "seconds": 8
+          "seconds": 4
+        },
+        {
+          "label": "decproof shadow",
+          "seconds": 0
         },
         {
           "label": "crate tests",
@@ -1077,24 +1022,24 @@
         },
         {
           "label": "real-program gate",
-          "seconds": 164
+          "seconds": 30
         },
         {
           "label": "no Python",
-          "seconds": 58
+          "seconds": 59
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 66,
-    "open_prs": 6,
-    "branches": 23,
-    "issues_opened_7d": 79,
+    "open_issues": 67,
+    "open_prs": 8,
+    "branches": 25,
+    "issues_opened_7d": 80,
     "issues_closed_7d": 51,
-    "prs_merged_7d": 113,
-    "prs_approved": 3,
-    "prs_in_review": 3,
-    "prs_needs_fix": 1
+    "prs_merged_7d": 114,
+    "prs_approved": 2,
+    "prs_in_review": 4,
+    "prs_needs_fix": 4
   }
 }
