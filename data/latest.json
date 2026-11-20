@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T04:18:28Z",
-  "build": "83da9d84",
-  "committed_at": "2026-11-20T03:04:29Z",
+  "generated_at": "2026-11-20T05:22:20Z",
+  "build": "449b3c20",
+  "committed_at": "2026-11-20T04:37:56Z",
   "round_trip": {
     "units": 657,
     "pass": 574,
     "worse": 0,
-    "better": 1,
+    "better": 0,
     "verdicts": [
       {
         "label": "pass",
@@ -683,8 +683,7 @@
         "units": 15,
         "pass": 13
       }
-    ],
-    "similarity": 0.2832
+    ]
   },
   "edit_distance": {
     "exports": 657,
@@ -695,88 +694,40 @@
         "count": 6
       }
     ],
-    "edits": 156040,
-    "exact": 4,
-    "mean_similarity": 0.370068049155146,
-    "median_similarity": 0.3482,
+    "edits": 148694,
+    "exact": 5,
+    "mean_similarity": 0.3926456221198155,
+    "median_similarity": 0.3704,
     "histogram": [
-      11,
-      75,
-      166,
-      138,
-      133,
-      67,
-      40,
-      9,
-      8,
-      4
+      10,
+      69,
+      156,
+      125,
+      126,
+      71,
+      52,
+      25,
+      12,
+      5
     ],
     "targets": [
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 47668,
-        "mean_similarity": 0.39912534562211965
+        "edits": 45616,
+        "mean_similarity": 0.42401013824884803
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 59407,
-        "mean_similarity": 0.31110414746543796
+        "edits": 56389,
+        "mean_similarity": 0.3258668202764979
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 48965,
-        "mean_similarity": 0.39997465437788027
-      }
-    ]
-  },
-  "structure": {
-    "exports": 657,
-    "ged_measured": 651,
-    "ged_exact": 288,
-    "ged_mean": 15.056835637480798,
-    "ged_median": 5.0,
-    "ged_p90": 40.0,
-    "ged_buckets": [
-      {
-        "label": "0",
-        "count": 288
-      },
-      {
-        "label": "1-2",
-        "count": 5
-      },
-      {
-        "label": "3-5",
-        "count": 102
-      },
-      {
-        "label": "6-10",
-        "count": 77
-      },
-      {
-        "label": "11-20",
-        "count": 77
-      },
-      {
-        "label": "21+",
-        "count": 102
-      }
-    ],
-    "ged_unmeasured": [
-      {
-        "label": "absent",
-        "count": 6
-      }
-    ],
-    "type_measured": 651,
-    "type_mean": 0.33547932196620556,
-    "type_unmeasured": [
-      {
-        "label": "noGT",
-        "count": 6
+        "edits": 46689,
+        "mean_similarity": 0.42805990783410147
       }
     ]
   },
@@ -993,221 +944,20 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4364,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4364
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 407
-      },
-      {
-        "label": "fail-diff",
-        "count": 209
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 860
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 861
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 822
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 120
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 886
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 815
-      }
-    ],
-    "similarity": 0.2639
-  },
-  "per_function": {
-    "rows": [
-      {
-        "label": "amd64_linux_musl-clang22_O2",
-        "pass": {
-          "pass": 1104,
-          "judged": 1250
-        },
-        "structure": {
-          "measured": 1257,
-          "source": {
-            "if": 1988,
-            "switch": 105,
-            "cast": 4114,
-            "token": 167760
-          },
-          "recovered": {
-            "if": 7542,
-            "switch": 86,
-            "cast": 59135,
-            "token": 1110163
-          }
-        },
-        "similarity": {
-          "total": 349.1055247431056,
-          "count": 1261
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O1",
-        "pass": {
-          "pass": 1403,
-          "judged": 1549
-        },
-        "structure": {
-          "measured": 1558,
-          "source": {
-            "if": 2279,
-            "switch": 125,
-            "cast": 4450,
-            "token": 192359
-          },
-          "recovered": {
-            "if": 4289,
-            "switch": 57,
-            "cast": 22412,
-            "token": 410708
-          }
-        },
-        "similarity": {
-          "total": 600.4280927501542,
-          "count": 1562
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "pass": {
-          "pass": 1137,
-          "judged": 1284
-        },
-        "structure": {
-          "measured": 1274,
-          "source": {
-            "if": 1978,
-            "switch": 104,
-            "cast": 4166,
-            "token": 169369
-          },
-          "recovered": {
-            "if": 5761,
-            "switch": 29,
-            "cast": 24879,
-            "token": 517006
-          }
-        },
-        "similarity": {
-          "total": 419.6301275015674,
-          "count": 1278
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O3",
-        "pass": {
-          "pass": 1130,
-          "judged": 1268
-        },
-        "structure": {
-          "measured": 1249,
-          "source": {
-            "if": 1975,
-            "switch": 104,
-            "cast": 4044,
-            "token": 166761
-          },
-          "recovered": {
-            "if": 10955,
-            "switch": 36,
-            "cast": 49934,
-            "token": 1084383
-          }
-        },
-        "similarity": {
-          "total": 356.3010636337142,
-          "count": 1253
-        }
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "pass": {
-          "pass": 1136,
-          "judged": 1287
-        },
-        "structure": {
-          "measured": 1274,
-          "source": {
-            "if": 1982,
-            "switch": 104,
-            "cast": 4160,
-            "token": 169389
-          },
-          "recovered": {
-            "if": 6365,
-            "switch": 25,
-            "cast": 25616,
-            "token": 642858
-          }
-        },
-        "similarity": {
-          "total": 393.9003264172617,
-          "count": 1278
-        }
-      }
-    ]
-  },
   "gates": [
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 307,
+      "seconds": 223,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 72
+          "seconds": 42
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 183
-        },
-        {
-          "label": "source edit distance",
-          "seconds": 40
-        },
-        {
-          "label": "decproof check",
-          "seconds": 1
+          "seconds": 169
         },
         {
           "label": "crate tests",
@@ -1215,20 +965,20 @@
         },
         {
           "label": "no Python",
-          "seconds": 11
+          "seconds": 12
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 52,
-    "open_prs": 12,
-    "branches": 30,
+    "open_issues": 51,
+    "open_prs": 10,
+    "branches": 29,
     "issues_opened_7d": 38,
-    "issues_closed_7d": 68,
-    "prs_merged_7d": 126,
-    "prs_approved": 3,
+    "issues_closed_7d": 69,
+    "prs_merged_7d": 129,
+    "prs_approved": 2,
     "prs_in_review": 8,
-    "prs_needs_fix": 4
+    "prs_needs_fix": 2
   }
 }
