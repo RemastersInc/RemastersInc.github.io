@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T07:26:50Z",
-  "build": "449b3c20",
-  "committed_at": "2026-11-20T04:37:56Z",
+  "generated_at": "2026-11-20T08:24:33Z",
+  "build": "e9f8984d",
+  "committed_at": "2026-11-20T08:12:36Z",
   "round_trip": {
     "units": 657,
     "pass": 574,
@@ -944,282 +944,20 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4364,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4364
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 407
-      },
-      {
-        "label": "fail-diff",
-        "count": 209
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 860
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 861
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 822
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 120
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 886
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 815
-      }
-    ],
-    "similarity": 0.2672
-  },
-  "robustness": {
-    "inputs": 406,
-    "finished": 404,
-    "stopped": 2,
-    "killed": 0,
-    "timed_out": 0,
-    "failed": 0,
-    "seconds": 5417,
-    "limit_mib": 2048,
-    "watch_mb": 5120,
-    "timeout_seconds": 300,
-    "image_limit_mib": 4096,
-    "image_watch_mb": 13824,
-    "image_timeout_seconds": 1200,
-    "collections": [
-      {
-        "label": "decbench",
-        "inputs": 221,
-        "finished": 221,
-        "stopped": 0,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 4381
-      },
-      {
-        "label": "fp",
-        "inputs": 169,
-        "finished": 169,
-        "stopped": 0,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 369
-      },
-      {
-        "label": "real",
-        "inputs": 16,
-        "finished": 14,
-        "stopped": 2,
-        "killed": 0,
-        "timed_out": 0,
-        "failed": 0,
-        "seconds": 667
-      }
-    ],
-    "references": [
-      {
-        "label": "program A, -O0",
-        "outcome": "finished",
-        "heap_mib": 183,
-        "rss_mb": 383,
-        "seconds": 70.99
-      },
-      {
-        "label": "program B, -O0",
-        "outcome": "finished",
-        "heap_mib": 649,
-        "rss_mb": 1361,
-        "seconds": 185.97
-      },
-      {
-        "label": "largest image",
-        "outcome": "timed-out",
-        "rss_mb": 2918,
-        "seconds": 1200.16
-      }
-    ]
-  },
-  "per_function": {
-    "rows": [
-      {
-        "label": "amd64_linux_musl-clang22_O2",
-        "pass": {
-          "pass": 1107,
-          "judged": 1250
-        },
-        "structure": {
-          "measured": 1257,
-          "source": {
-            "if": 1988,
-            "switch": 105,
-            "cast": 4114,
-            "token": 167760
-          },
-          "recovered": {
-            "if": 7541,
-            "switch": 86,
-            "cast": 59139,
-            "token": 1080570
-          }
-        },
-        "similarity": {
-          "total": 360.4837414759248,
-          "count": 1261
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O1",
-        "pass": {
-          "pass": 1405,
-          "judged": 1549
-        },
-        "structure": {
-          "measured": 1558,
-          "source": {
-            "if": 2279,
-            "switch": 125,
-            "cast": 4450,
-            "token": 192359
-          },
-          "recovered": {
-            "if": 4289,
-            "switch": 57,
-            "cast": 22412,
-            "token": 394907
-          }
-        },
-        "similarity": {
-          "total": 619.4321492623567,
-          "count": 1562
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "pass": {
-          "pass": 1139,
-          "judged": 1284
-        },
-        "structure": {
-          "measured": 1274,
-          "source": {
-            "if": 1978,
-            "switch": 104,
-            "cast": 4166,
-            "token": 169369
-          },
-          "recovered": {
-            "if": 5761,
-            "switch": 29,
-            "cast": 24879,
-            "token": 497103
-          }
-        },
-        "similarity": {
-          "total": 433.89120975457007,
-          "count": 1278
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O3",
-        "pass": {
-          "pass": 1131,
-          "judged": 1268
-        },
-        "structure": {
-          "measured": 1249,
-          "source": {
-            "if": 1975,
-            "switch": 104,
-            "cast": 4044,
-            "token": 166761
-          },
-          "recovered": {
-            "if": 10954,
-            "switch": 36,
-            "cast": 49961,
-            "token": 1035219
-          }
-        },
-        "similarity": {
-          "total": 369.01461908891775,
-          "count": 1253
-        }
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "pass": {
-          "pass": 1137,
-          "judged": 1287
-        },
-        "structure": {
-          "measured": 1274,
-          "source": {
-            "if": 1982,
-            "switch": 104,
-            "cast": 4160,
-            "token": 169389
-          },
-          "recovered": {
-            "if": 6365,
-            "switch": 25,
-            "cast": 25616,
-            "token": 621281
-          }
-        },
-        "similarity": {
-          "total": 407.6736986818892,
-          "count": 1278
-        }
-      }
-    ]
-  },
   "gates": [
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 223,
+      "seconds": 261,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 42
+          "seconds": 53
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 169
+          "seconds": 202
         },
         {
           "label": "crate tests",
@@ -1227,7 +965,7 @@
         },
         {
           "label": "no Python",
-          "seconds": 12
+          "seconds": 6
         }
       ]
     }
@@ -1238,9 +976,9 @@
     "branches": 31,
     "issues_opened_7d": 45,
     "issues_closed_7d": 69,
-    "prs_merged_7d": 133,
-    "prs_approved": 1,
+    "prs_merged_7d": 134,
+    "prs_approved": 0,
     "prs_in_review": 11,
-    "prs_needs_fix": 1
+    "prs_needs_fix": 5
   }
 }
