@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-19T22:21:15Z",
-  "build": "0ad2c929",
-  "committed_at": "2026-11-19T17:08:16Z",
+  "generated_at": "2026-11-20T02:02:05Z",
+  "build": "3a50b420",
+  "committed_at": "2026-11-19T17:57:12Z",
   "round_trip": {
     "units": 657,
     "pass": 573,
@@ -996,25 +996,25 @@
   "gates": [
     {
       "name": "T1",
-      "verdict": "PASSED",
-      "seconds": 460,
+      "verdict": "FAILED",
+      "seconds": 212,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 53
+          "seconds": 43
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 151
+          "seconds": 143
         },
         {
           "label": "source edit distance",
-          "seconds": 6
+          "seconds": 3
         },
         {
           "label": "decproof check",
-          "seconds": 1
+          "seconds": 0
         },
         {
           "label": "crate tests",
@@ -1022,11 +1022,11 @@
         },
         {
           "label": "real-program gate",
-          "seconds": 186
+          "seconds": 17
         },
         {
           "label": "no Python",
-          "seconds": 63
+          "seconds": 6
         }
       ]
     }
@@ -1035,11 +1035,11 @@
     "open_issues": 51,
     "open_prs": 22,
     "branches": 40,
-    "issues_opened_7d": 69,
-    "issues_closed_7d": 76,
-    "prs_merged_7d": 129,
+    "issues_opened_7d": 36,
+    "issues_closed_7d": 67,
+    "prs_merged_7d": 115,
     "prs_approved": 10,
-    "prs_in_review": 11,
+    "prs_in_review": 10,
     "prs_needs_fix": 7
   }
 }
