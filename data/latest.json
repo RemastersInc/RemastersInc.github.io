@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T19:41:02Z",
+  "generated_at": "2026-11-20T21:23:18Z",
   "build": "84d53364",
   "committed_at": "2026-11-20T18:56:14Z",
   "round_trip": {
@@ -1003,6 +1003,74 @@
     ],
     "similarity": 0.2667
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 403,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 1,
+    "failed": 0,
+    "seconds": 5943,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 220,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 1,
+        "failed": 0,
+        "seconds": 4790
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 335
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 818
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 183,
+        "rss_mb": 327,
+        "seconds": 101.94
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "timed-out",
+        "rss_mb": 957,
+        "seconds": 300.18
+      },
+      {
+        "label": "largest image",
+        "outcome": "not-run",
+        "rss_mb": 0,
+        "seconds": 0.0
+      }
+    ]
+  },
   "per_function": {
     "rows": [
       {
@@ -1307,13 +1375,13 @@
   ],
   "work": {
     "open_issues": 56,
-    "open_prs": 19,
-    "branches": 40,
+    "open_prs": 21,
+    "branches": 42,
     "issues_opened_7d": 47,
     "issues_closed_7d": 73,
     "prs_merged_7d": 145,
     "prs_approved": 2,
-    "prs_in_review": 14,
-    "prs_needs_fix": 5
+    "prs_in_review": 16,
+    "prs_needs_fix": 6
   }
 }
