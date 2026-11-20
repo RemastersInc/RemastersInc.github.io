@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T02:20:30Z",
-  "build": "3a50b420",
-  "committed_at": "2026-11-19T17:57:12Z",
+  "generated_at": "2026-11-20T04:03:34Z",
+  "build": "83da9d84",
+  "committed_at": "2026-11-20T03:04:29Z",
   "round_trip": {
     "units": 657,
-    "pass": 573,
+    "pass": 574,
     "worse": 0,
-    "better": 0,
+    "better": 1,
     "verdicts": [
       {
         "label": "pass",
-        "count": 573
+        "count": 574
       },
       {
         "label": "fail-crash-dec",
-        "count": 51
+        "count": 50
       },
       {
         "label": "fail-compile-export",
@@ -39,7 +39,7 @@
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "units": 219,
-        "pass": 175
+        "pass": 176
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
@@ -196,7 +196,7 @@
       {
         "label": "ctrl",
         "units": 63,
-        "pass": 53
+        "pass": 54
       },
       {
         "label": "data",
@@ -581,7 +581,7 @@
       {
         "label": "state-machine",
         "units": 36,
-        "pass": 33
+        "pass": 34
       },
       {
         "label": "static-local",
@@ -601,7 +601,7 @@
       {
         "label": "strings",
         "units": 96,
-        "pass": 91
+        "pass": 92
       },
       {
         "label": "struct-graph",
@@ -616,7 +616,7 @@
       {
         "label": "switch",
         "units": 24,
-        "pass": 21
+        "pass": 22
       },
       {
         "label": "symbols",
@@ -636,7 +636,7 @@
       {
         "label": "table-driven",
         "units": 12,
-        "pass": 11
+        "pass": 12
       },
       {
         "label": "ternary",
@@ -684,7 +684,7 @@
         "pass": 13
       }
     ],
-    "similarity": 0.2778
+    "similarity": 0.2832
   },
   "edit_distance": {
     "exports": 657,
@@ -695,40 +695,40 @@
         "count": 6
       }
     ],
-    "edits": 156986,
+    "edits": 156040,
     "exact": 4,
-    "mean_similarity": 0.3673803379416285,
-    "median_similarity": 0.3444,
+    "mean_similarity": 0.370068049155146,
+    "median_similarity": 0.3482,
     "histogram": [
       11,
       75,
-      168,
-      141,
-      131,
-      66,
+      166,
+      138,
+      133,
+      67,
       40,
       9,
-      6,
+      8,
       4
     ],
     "targets": [
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 47850,
-        "mean_similarity": 0.3982013824884791
+        "edits": 47668,
+        "mean_similarity": 0.39912534562211965
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 59752,
-        "mean_similarity": 0.30557142857142855
+        "edits": 59407,
+        "mean_similarity": 0.31110414746543796
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 49384,
-        "mean_similarity": 0.3983682027649769
+        "edits": 48965,
+        "mean_similarity": 0.39997465437788027
       }
     ]
   },
@@ -993,246 +993,49 @@
       }
     ]
   },
-  "round_trip_t3": {
-    "units": 5016,
-    "pass": 4361,
-    "verdicts": [
-      {
-        "label": "pass",
-        "count": 4361
-      },
-      {
-        "label": "fail-crash-dec",
-        "count": 412
-      },
-      {
-        "label": "fail-diff",
-        "count": 207
-      },
-      {
-        "label": "fail-compile-export",
-        "count": 25
-      },
-      {
-        "label": "fail-hang-dec",
-        "count": 11
-      }
-    ],
-    "targets": [
-      {
-        "label": "amd64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 860
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O0_ssp",
-        "units": 975,
-        "pass": 861
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 820
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_Os",
-        "units": 141,
-        "pass": 120
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O0",
-        "units": 975,
-        "pass": 886
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "units": 975,
-        "pass": 814
-      }
-    ],
-    "similarity": 0.2624
-  },
-  "per_function": {
-    "rows": [
-      {
-        "label": "amd64_linux_musl-clang22_O2",
-        "pass": {
-          "pass": 1104,
-          "judged": 1250
-        },
-        "structure": {
-          "measured": 1257,
-          "source": {
-            "if": 1988,
-            "switch": 105,
-            "cast": 4114,
-            "token": 167760
-          },
-          "recovered": {
-            "if": 7542,
-            "switch": 86,
-            "cast": 59149,
-            "token": 1111153
-          }
-        },
-        "similarity": {
-          "total": 347.61533014323055,
-          "count": 1261
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O1",
-        "pass": {
-          "pass": 1399,
-          "judged": 1549
-        },
-        "structure": {
-          "measured": 1558,
-          "source": {
-            "if": 2279,
-            "switch": 125,
-            "cast": 4450,
-            "token": 192359
-          },
-          "recovered": {
-            "if": 4289,
-            "switch": 57,
-            "cast": 22444,
-            "token": 411897
-          }
-        },
-        "similarity": {
-          "total": 598.4019233835154,
-          "count": 1562
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O2",
-        "pass": {
-          "pass": 1139,
-          "judged": 1284
-        },
-        "structure": {
-          "measured": 1274,
-          "source": {
-            "if": 1978,
-            "switch": 104,
-            "cast": 4166,
-            "token": 169369
-          },
-          "recovered": {
-            "if": 5761,
-            "switch": 29,
-            "cast": 24911,
-            "token": 518194
-          }
-        },
-        "similarity": {
-          "total": 418.0108874731324,
-          "count": 1278
-        }
-      },
-      {
-        "label": "amd64_linux_musl-gcc14_O3",
-        "pass": {
-          "pass": 1130,
-          "judged": 1268
-        },
-        "structure": {
-          "measured": 1249,
-          "source": {
-            "if": 1975,
-            "switch": 104,
-            "cast": 4044,
-            "token": 166761
-          },
-          "recovered": {
-            "if": 10955,
-            "switch": 36,
-            "cast": 49952,
-            "token": 1085470
-          }
-        },
-        "similarity": {
-          "total": 355.3027528078623,
-          "count": 1253
-        }
-      },
-      {
-        "label": "arm64_linux_musl-gcc14_O2",
-        "pass": {
-          "pass": 1131,
-          "judged": 1287
-        },
-        "structure": {
-          "measured": 1274,
-          "source": {
-            "if": 1982,
-            "switch": 104,
-            "cast": 4160,
-            "token": 169389
-          },
-          "recovered": {
-            "if": 6365,
-            "switch": 25,
-            "cast": 25703,
-            "token": 645085
-          }
-        },
-        "similarity": {
-          "total": 391.496176350353,
-          "count": 1278
-        }
-      }
-    ]
-  },
   "gates": [
     {
       "name": "T1",
-      "verdict": "FAILED",
-      "seconds": 212,
+      "verdict": "PASSED",
+      "seconds": 307,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 43
+          "seconds": 72
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 143
+          "seconds": 183
         },
         {
           "label": "source edit distance",
-          "seconds": 3
+          "seconds": 40
         },
         {
           "label": "decproof check",
-          "seconds": 0
+          "seconds": 1
         },
         {
           "label": "crate tests",
           "seconds": 0
         },
         {
-          "label": "real-program gate",
-          "seconds": 17
-        },
-        {
           "label": "no Python",
-          "seconds": 6
+          "seconds": 11
         }
       ]
     }
   ],
   "work": {
-    "open_issues": 51,
-    "open_prs": 21,
-    "branches": 39,
+    "open_issues": 50,
+    "open_prs": 14,
+    "branches": 32,
     "issues_opened_7d": 36,
-    "issues_closed_7d": 67,
-    "prs_merged_7d": 117,
-    "prs_approved": 9,
+    "issues_closed_7d": 68,
+    "prs_merged_7d": 124,
+    "prs_approved": 3,
     "prs_in_review": 10,
-    "prs_needs_fix": 6
+    "prs_needs_fix": 5
   }
 }
