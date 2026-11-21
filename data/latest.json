@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T08:24:04Z",
+  "generated_at": "2026-11-21T08:45:52Z",
   "build": "52a8c6a8",
   "committed_at": "2026-11-21T07:21:04Z",
   "round_trip": {
@@ -944,6 +944,282 @@
       }
     ]
   },
+  "per_function": {
+    "rows": [
+      {
+        "label": "amd64_linux_musl-clang22_O2",
+        "pass": {
+          "pass": 1144,
+          "judged": 1250
+        },
+        "structure": {
+          "measured": 1257,
+          "source": {
+            "if": 1988,
+            "switch": 105,
+            "cast": 4114,
+            "token": 167760
+          },
+          "recovered": {
+            "if": 7530,
+            "switch": 86,
+            "cast": 44261,
+            "token": 1033463
+          }
+        },
+        "similarity": {
+          "total": 367.436765810983,
+          "count": 1261
+        }
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O1",
+        "pass": {
+          "pass": 1458,
+          "judged": 1549
+        },
+        "structure": {
+          "measured": 1558,
+          "source": {
+            "if": 2279,
+            "switch": 125,
+            "cast": 4450,
+            "token": 192359
+          },
+          "recovered": {
+            "if": 4284,
+            "switch": 57,
+            "cast": 16761,
+            "token": 375529
+          }
+        },
+        "similarity": {
+          "total": 633.181755512886,
+          "count": 1562
+        }
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "pass": {
+          "pass": 1180,
+          "judged": 1284
+        },
+        "structure": {
+          "measured": 1274,
+          "source": {
+            "if": 1978,
+            "switch": 104,
+            "cast": 4166,
+            "token": 169369
+          },
+          "recovered": {
+            "if": 5758,
+            "switch": 29,
+            "cast": 18903,
+            "token": 477119
+          }
+        },
+        "similarity": {
+          "total": 441.9945735363809,
+          "count": 1278
+        }
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O3",
+        "pass": {
+          "pass": 1170,
+          "judged": 1268
+        },
+        "structure": {
+          "measured": 1249,
+          "source": {
+            "if": 1975,
+            "switch": 104,
+            "cast": 4044,
+            "token": 166761
+          },
+          "recovered": {
+            "if": 10949,
+            "switch": 36,
+            "cast": 37335,
+            "token": 995303
+          }
+        },
+        "similarity": {
+          "total": 375.9648038788168,
+          "count": 1253
+        }
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "pass": {
+          "pass": 1176,
+          "judged": 1287
+        },
+        "structure": {
+          "measured": 1274,
+          "source": {
+            "if": 1982,
+            "switch": 104,
+            "cast": 4160,
+            "token": 169389
+          },
+          "recovered": {
+            "if": 6364,
+            "switch": 25,
+            "cast": 19704,
+            "token": 601292
+          }
+        },
+        "similarity": {
+          "total": 413.6811961755444,
+          "count": 1278
+        }
+      }
+    ],
+    "zoo": "d9b0ce218777"
+  },
+  "references": [
+    {
+      "name": "Kuna",
+      "pin": "9b758091",
+      "measured_on": "2026-11-19",
+      "zoo": "d9b0ce218777",
+      "build": "43e86415b1c7",
+      "rows": [
+        {
+          "label": "amd64_linux_musl-clang22_O2",
+          "pass": {
+            "pass": 827,
+            "judged": 1251
+          },
+          "structure": {
+            "measured": 1261,
+            "source": {
+              "if": 1990,
+              "switch": 107,
+              "cast": 4118,
+              "token": 168375
+            },
+            "recovered": {
+              "if": 5447,
+              "switch": 207,
+              "cast": 24420,
+              "token": 669528
+            }
+          },
+          "similarity": {
+            "total": 420.6631780717238,
+            "count": 1261
+          }
+        },
+        {
+          "label": "amd64_linux_musl-gcc14_O1",
+          "pass": {
+            "pass": 1091,
+            "judged": 1550
+          },
+          "structure": {
+            "measured": 1562,
+            "source": {
+              "if": 2279,
+              "switch": 125,
+              "cast": 4451,
+              "token": 192592
+            },
+            "recovered": {
+              "if": 3557,
+              "switch": 54,
+              "cast": 4976,
+              "token": 264292
+            }
+          },
+          "similarity": {
+            "total": 695.5572085251454,
+            "count": 1562
+          }
+        },
+        {
+          "label": "amd64_linux_musl-gcc14_O2",
+          "pass": {
+            "pass": 862,
+            "judged": 1288
+          },
+          "structure": {
+            "measured": 1278,
+            "source": {
+              "if": 1978,
+              "switch": 104,
+              "cast": 4167,
+              "token": 169602
+            },
+            "recovered": {
+              "if": 4309,
+              "switch": 47,
+              "cast": 7478,
+              "token": 326546
+            }
+          },
+          "similarity": {
+            "total": 487.0980158781055,
+            "count": 1278
+          }
+        },
+        {
+          "label": "amd64_linux_musl-gcc14_O3",
+          "pass": {
+            "pass": 890,
+            "judged": 1273
+          },
+          "structure": {
+            "measured": 1253,
+            "source": {
+              "if": 1975,
+              "switch": 104,
+              "cast": 4045,
+              "token": 166994
+            },
+            "recovered": {
+              "if": 7636,
+              "switch": 70,
+              "cast": 17593,
+              "token": 583953
+            }
+          },
+          "similarity": {
+            "total": 417.31775866088736,
+            "count": 1253
+          }
+        },
+        {
+          "label": "arm64_linux_musl-gcc14_O2",
+          "pass": {
+            "pass": 775,
+            "judged": 1286
+          },
+          "structure": {
+            "measured": 1278,
+            "source": {
+              "if": 1982,
+              "switch": 104,
+              "cast": 4161,
+              "token": 169622
+            },
+            "recovered": {
+              "if": 4589,
+              "switch": 15,
+              "cast": 9590,
+              "token": 365995
+            }
+          },
+          "similarity": {
+            "total": 475.1560317955051,
+            "count": 1278
+          }
+        }
+      ]
+    }
+  ],
   "gates": [
     {
       "name": "T1",
@@ -972,13 +1248,13 @@
   ],
   "work": {
     "open_issues": 52,
-    "open_prs": 23,
-    "branches": 45,
+    "open_prs": 24,
+    "branches": 46,
     "issues_opened_7d": 27,
     "issues_closed_7d": 65,
     "prs_merged_7d": 133,
     "prs_approved": 2,
-    "prs_in_review": 16,
+    "prs_in_review": 18,
     "prs_needs_fix": 9
   }
 }
