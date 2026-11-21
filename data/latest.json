@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T12:28:54Z",
+  "generated_at": "2026-11-21T14:18:15Z",
   "build": "8ceba3b1",
   "committed_at": "2026-11-21T12:06:32Z",
   "round_trip": {
@@ -1003,6 +1003,75 @@
     ],
     "similarity": 0.267
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 404,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 0,
+    "failed": 0,
+    "seconds": 4573,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 221,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 3482
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 344
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 747
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 182,
+        "rss_mb": 386,
+        "seconds": 81.37
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 650,
+        "rss_mb": 1402,
+        "seconds": 161.11
+      },
+      {
+        "label": "largest image",
+        "outcome": "not-run",
+        "rss_mb": 0,
+        "seconds": 0.0
+      }
+    ]
+  },
   "per_function": {
     "rows": [
       {
@@ -1313,7 +1382,7 @@
     "issues_closed_7d": 65,
     "prs_merged_7d": 134,
     "prs_approved": 2,
-    "prs_in_review": 17,
+    "prs_in_review": 18,
     "prs_needs_fix": 10
   }
 }
