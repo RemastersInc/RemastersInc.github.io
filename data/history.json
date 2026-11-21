@@ -158955,6 +158955,1734 @@
         "prs_in_review": 15,
         "prs_needs_fix": 8
       }
+    },
+    {
+      "schema": 1,
+      "generated_at": "2026-11-21T22:47:19Z",
+      "build": "de7656d7",
+      "committed_at": "2026-11-21T17:20:30Z",
+      "round_trip": {
+        "units": 657,
+        "pass": 575,
+        "worse": 0,
+        "better": 0,
+        "verdicts": [
+          {
+            "label": "pass",
+            "count": 575
+          },
+          {
+            "label": "fail-crash-dec",
+            "count": 50
+          },
+          {
+            "label": "fail-compile-export",
+            "count": 15
+          },
+          {
+            "label": "fail-diff",
+            "count": 11
+          },
+          {
+            "label": "fail-hang-dec",
+            "count": 6
+          }
+        ],
+        "targets": [
+          {
+            "label": "amd64_linux_musl-gcc14_O0",
+            "units": 219,
+            "pass": 197
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "units": 219,
+            "pass": 177
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O0",
+            "units": 219,
+            "pass": 201
+          }
+        ],
+        "tags": [
+          {
+            "label": "accessors",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "address-taken",
+            "units": 15,
+            "pass": 14
+          },
+          {
+            "label": "algo",
+            "units": 30,
+            "pass": 27
+          },
+          {
+            "label": "alias",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "alignas",
+            "units": 15,
+            "pass": 14
+          },
+          {
+            "label": "allocator",
+            "units": 12,
+            "pass": 11
+          },
+          {
+            "label": "always-inline",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "arith",
+            "units": 69,
+            "pass": 69
+          },
+          {
+            "label": "binsearch",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "bitboard",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "bitflags",
+            "units": 12,
+            "pass": 10
+          },
+          {
+            "label": "bitmask",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "bits",
+            "units": 99,
+            "pass": 99
+          },
+          {
+            "label": "bswap",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "bufout",
+            "units": 102,
+            "pass": 84
+          },
+          {
+            "label": "builder",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "builtin",
+            "units": 30,
+            "pass": 28
+          },
+          {
+            "label": "by-value",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "c99-inline",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "calendar",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "call",
+            "units": 39,
+            "pass": 27
+          },
+          {
+            "label": "calls",
+            "units": 30,
+            "pass": 30
+          },
+          {
+            "label": "checksum",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "cleanup",
+            "units": 24,
+            "pass": 8
+          },
+          {
+            "label": "clock",
+            "units": 15,
+            "pass": 10
+          },
+          {
+            "label": "conditional-compilation",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "convert",
+            "units": 15,
+            "pass": 11
+          },
+          {
+            "label": "cost-threshold",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "crc",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "ctrl",
+            "units": 63,
+            "pass": 54
+          },
+          {
+            "label": "data",
+            "units": 39,
+            "pass": 38
+          },
+          {
+            "label": "defer",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "differential",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "dispatch",
+            "units": 36,
+            "pass": 8
+          },
+          {
+            "label": "division",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "dlsym",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "driver-idiom",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "dynamic",
+            "units": 33,
+            "pass": 18
+          },
+          {
+            "label": "elf-macho",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "endian",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "enums",
+            "units": 24,
+            "pass": 23
+          },
+          {
+            "label": "error-path",
+            "units": 24,
+            "pass": 20
+          },
+          {
+            "label": "exc",
+            "units": 24,
+            "pass": 8
+          },
+          {
+            "label": "extern-inline",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "extern-linkage",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "fields",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "fixed-point",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "fnptr",
+            "units": 54,
+            "pass": 32
+          },
+          {
+            "label": "fp",
+            "units": 33,
+            "pass": 29
+          },
+          {
+            "label": "gcc-clang",
+            "units": 42,
+            "pass": 38
+          },
+          {
+            "label": "glob",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "globals",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "hash",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "heap",
+            "units": 78,
+            "pass": 61
+          },
+          {
+            "label": "imported",
+            "units": 54,
+            "pass": 54
+          },
+          {
+            "label": "inline",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "inlining-boundary",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "integer-widths",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "intrinsics",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "json",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "libc",
+            "units": 48,
+            "pass": 48
+          },
+          {
+            "label": "lifo",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "linkage",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "longjmp",
+            "units": 24,
+            "pass": 18
+          },
+          {
+            "label": "lookup-tables",
+            "units": 27,
+            "pass": 26
+          },
+          {
+            "label": "loop-invariant",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "loops",
+            "units": 135,
+            "pass": 125
+          },
+          {
+            "label": "macros",
+            "units": 27,
+            "pass": 25
+          },
+          {
+            "label": "magic-constants",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "masks",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "mem",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "memmove",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "memory",
+            "units": 24,
+            "pass": 24
+          },
+          {
+            "label": "memset",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "mul128",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "multi-tu",
+            "units": 24,
+            "pass": 24
+          },
+          {
+            "label": "mutual-recursion",
+            "units": 12,
+            "pass": 6
+          },
+          {
+            "label": "negative-enum",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "nesting",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "non-local-exit",
+            "units": 24,
+            "pass": 18
+          },
+          {
+            "label": "obj",
+            "units": 24,
+            "pass": 14
+          },
+          {
+            "label": "oop",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "parse",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "parser",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "parsing",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "pipe",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "poll",
+            "units": 15,
+            "pass": 10
+          },
+          {
+            "label": "posix-only",
+            "units": 48,
+            "pass": 43
+          },
+          {
+            "label": "prog",
+            "units": 27,
+            "pass": 23
+          },
+          {
+            "label": "promotions",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "punning",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "recursion",
+            "units": 27,
+            "pass": 23
+          },
+          {
+            "label": "register",
+            "units": 15,
+            "pass": 14
+          },
+          {
+            "label": "resource",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "retry",
+            "units": 12,
+            "pass": 6
+          },
+          {
+            "label": "rodata",
+            "units": 12,
+            "pass": 11
+          },
+          {
+            "label": "rotate",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "select",
+            "units": 15,
+            "pass": 10
+          },
+          {
+            "label": "setjmp",
+            "units": 24,
+            "pass": 18
+          },
+          {
+            "label": "shifts",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "short-circuit",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "side-effects",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "sign-extension",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "simd",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "sse2",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "stack",
+            "units": 12,
+            "pass": 6
+          },
+          {
+            "label": "state-machine",
+            "units": 36,
+            "pass": 34
+          },
+          {
+            "label": "static-local",
+            "units": 15,
+            "pass": 14
+          },
+          {
+            "label": "storage",
+            "units": 27,
+            "pass": 26
+          },
+          {
+            "label": "str",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "strings",
+            "units": 96,
+            "pass": 92
+          },
+          {
+            "label": "struct-graph",
+            "units": 24,
+            "pass": 14
+          },
+          {
+            "label": "structs",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "switch",
+            "units": 24,
+            "pass": 22
+          },
+          {
+            "label": "symbols",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "sys",
+            "units": 60,
+            "pass": 54
+          },
+          {
+            "label": "syscall",
+            "units": 30,
+            "pass": 25
+          },
+          {
+            "label": "table-driven",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "ternary",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "tls",
+            "units": 15,
+            "pass": 14
+          },
+          {
+            "label": "types",
+            "units": 24,
+            "pass": 24
+          },
+          {
+            "label": "unions",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "varargs",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "variants",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "visibility",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "vtable",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "x86-only",
+            "units": 15,
+            "pass": 13
+          }
+        ]
+      },
+      "edit_distance": {
+        "exports": 657,
+        "measured": 651,
+        "unmeasured": [
+          {
+            "label": "absent",
+            "count": 6
+          }
+        ],
+        "edits": 140167,
+        "exact": 5,
+        "mean_similarity": 0.4004801843317974,
+        "median_similarity": 0.3822,
+        "histogram": [
+          10,
+          59,
+          154,
+          123,
+          132,
+          80,
+          50,
+          26,
+          12,
+          5
+        ],
+        "targets": [
+          {
+            "label": "amd64_linux_musl-gcc14_O0",
+            "measured": 217,
+            "edits": 42926,
+            "mean_similarity": 0.4341041474654379
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "measured": 217,
+            "edits": 53640,
+            "mean_similarity": 0.33314930875576054
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O0",
+            "measured": 217,
+            "edits": 43601,
+            "mean_similarity": 0.43418709677419337
+          }
+        ]
+      },
+      "fp_suite": {
+        "artefacts": 169,
+        "functions": 53618,
+        "pass": 38352,
+        "wrong_value": 585,
+        "signature_values_ok": 6574,
+        "signature_values_wrong": 7770,
+        "compile_fail": 0,
+        "refused": 337,
+        "unsupported": 0,
+        "prototypes_exact": 20809,
+        "lines_recovered": 410752,
+        "lines_source": 101462,
+        "helpers": 57800,
+        "casts": 206556,
+        "gotos": 293,
+        "targets": [
+          {
+            "label": "a64-elf",
+            "functions": 4438,
+            "pass": 3868,
+            "wrong_value": 38
+          },
+          {
+            "label": "a64-macho",
+            "functions": 3470,
+            "pass": 3030,
+            "wrong_value": 11
+          },
+          {
+            "label": "arm-soft",
+            "functions": 1706,
+            "pass": 891,
+            "wrong_value": 5
+          },
+          {
+            "label": "arm-softfp",
+            "functions": 1706,
+            "pass": 999,
+            "wrong_value": 8
+          },
+          {
+            "label": "armhf-vfp",
+            "functions": 2027,
+            "pass": 1485,
+            "wrong_value": 31
+          },
+          {
+            "label": "i386-sse2-elf",
+            "functions": 1160,
+            "pass": 638,
+            "wrong_value": 9
+          },
+          {
+            "label": "i386-sse2-pe",
+            "functions": 1192,
+            "pass": 568,
+            "wrong_value": 15
+          },
+          {
+            "label": "i386-x87-elf",
+            "functions": 1124,
+            "pass": 700,
+            "wrong_value": 9
+          },
+          {
+            "label": "i386-x87-pe",
+            "functions": 1991,
+            "pass": 1159,
+            "wrong_value": 49
+          },
+          {
+            "label": "loongarch64",
+            "functions": 1354,
+            "pass": 1048,
+            "wrong_value": 24
+          },
+          {
+            "label": "mips32-hard",
+            "functions": 1124,
+            "pass": 750,
+            "wrong_value": 16
+          },
+          {
+            "label": "mips32-soft",
+            "functions": 1124,
+            "pass": 476,
+            "wrong_value": 27
+          },
+          {
+            "label": "mips64-n64",
+            "functions": 1318,
+            "pass": 1063,
+            "wrong_value": 14
+          },
+          {
+            "label": "mipsel-hard",
+            "functions": 1124,
+            "pass": 758,
+            "wrong_value": 5
+          },
+          {
+            "label": "ppc32-hard",
+            "functions": 1124,
+            "pass": 466,
+            "wrong_value": 83
+          },
+          {
+            "label": "ppc64le",
+            "functions": 1318,
+            "pass": 803,
+            "wrong_value": 8
+          },
+          {
+            "label": "rv32gc",
+            "functions": 1160,
+            "pass": 785,
+            "wrong_value": 5
+          },
+          {
+            "label": "rv64gc",
+            "functions": 1354,
+            "pass": 1132,
+            "wrong_value": 3
+          },
+          {
+            "label": "rv64imac-soft",
+            "functions": 1354,
+            "pass": 946,
+            "wrong_value": 2
+          },
+          {
+            "label": "s390x",
+            "functions": 1354,
+            "pass": 746,
+            "wrong_value": 15
+          },
+          {
+            "label": "sparc64",
+            "functions": 1318,
+            "pass": 978,
+            "wrong_value": 58
+          },
+          {
+            "label": "thumb-m4f",
+            "functions": 1674,
+            "pass": 1143,
+            "wrong_value": 22
+          },
+          {
+            "label": "thumb-m7",
+            "functions": 1674,
+            "pass": 1075,
+            "wrong_value": 14
+          },
+          {
+            "label": "x64-avx2-elf",
+            "functions": 3072,
+            "pass": 2383,
+            "wrong_value": 6
+          },
+          {
+            "label": "x64-avx512-elf",
+            "functions": 3072,
+            "pass": 2385,
+            "wrong_value": 8
+          },
+          {
+            "label": "x64-macho",
+            "functions": 2429,
+            "pass": 1962,
+            "wrong_value": 26
+          },
+          {
+            "label": "x64-pe",
+            "functions": 3419,
+            "pass": 2562,
+            "wrong_value": 59
+          },
+          {
+            "label": "x64-sse2-elf",
+            "functions": 4438,
+            "pass": 3553,
+            "wrong_value": 15
+          }
+        ],
+        "compilers": [
+          {
+            "label": "appleclang",
+            "functions": 2776,
+            "pass": 2333,
+            "wrong_value": 21
+          },
+          {
+            "label": "clang",
+            "functions": 17398,
+            "pass": 12233,
+            "wrong_value": 200
+          },
+          {
+            "label": "gcc",
+            "functions": 12491,
+            "pass": 9089,
+            "wrong_value": 145
+          },
+          {
+            "label": "zig",
+            "functions": 20953,
+            "pass": 14697,
+            "wrong_value": 219
+          }
+        ]
+      },
+      "round_trip_t3": {
+        "units": 5016,
+        "pass": 4389,
+        "verdicts": [
+          {
+            "label": "pass",
+            "count": 4389
+          },
+          {
+            "label": "fail-crash-dec",
+            "count": 406
+          },
+          {
+            "label": "fail-diff",
+            "count": 185
+          },
+          {
+            "label": "fail-compile-export",
+            "count": 25
+          },
+          {
+            "label": "fail-hang-dec",
+            "count": 11
+          }
+        ],
+        "targets": [
+          {
+            "label": "amd64_linux_musl-gcc14_O0",
+            "units": 975,
+            "pass": 864
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O0_ssp",
+            "units": 975,
+            "pass": 863
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "units": 975,
+            "pass": 838
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_Os",
+            "units": 141,
+            "pass": 121
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O0",
+            "units": 975,
+            "pass": 887
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O2",
+            "units": 975,
+            "pass": 816
+          }
+        ],
+        "similarity": 0.2666
+      },
+      "robustness": {
+        "inputs": 406,
+        "finished": 404,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 4760,
+        "limit_mib": 2048,
+        "watch_mb": 5120,
+        "timeout_seconds": 300,
+        "image_limit_mib": 4096,
+        "image_watch_mb": 13824,
+        "image_timeout_seconds": 1200,
+        "collections": [
+          {
+            "label": "decbench",
+            "inputs": 221,
+            "finished": 221,
+            "stopped": 0,
+            "killed": 0,
+            "timed_out": 0,
+            "failed": 0,
+            "seconds": 3817
+          },
+          {
+            "label": "fp",
+            "inputs": 169,
+            "finished": 169,
+            "stopped": 0,
+            "killed": 0,
+            "timed_out": 0,
+            "failed": 0,
+            "seconds": 294
+          },
+          {
+            "label": "real",
+            "inputs": 16,
+            "finished": 14,
+            "stopped": 2,
+            "killed": 0,
+            "timed_out": 0,
+            "failed": 0,
+            "seconds": 649
+          }
+        ],
+        "references": [
+          {
+            "label": "program A, -O0",
+            "outcome": "finished",
+            "heap_mib": 182,
+            "rss_mb": 385,
+            "seconds": 62.31
+          },
+          {
+            "label": "program B, -O0",
+            "outcome": "finished",
+            "heap_mib": 650,
+            "rss_mb": 1353,
+            "seconds": 170.38
+          },
+          {
+            "label": "largest image",
+            "outcome": "not-run",
+            "rss_mb": 0,
+            "seconds": 0.0
+          }
+        ]
+      },
+      "per_function": {
+        "rows": [
+          {
+            "label": "amd64_linux_musl-clang22_O2",
+            "pass": {
+              "pass": 1146,
+              "judged": 1250
+            },
+            "structure": {
+              "measured": 1257,
+              "source": {
+                "if": 1988,
+                "switch": 105,
+                "cast": 4114,
+                "token": 167760,
+                "goto": 65,
+                "loop": 953
+              },
+              "recovered": {
+                "if": 7530,
+                "switch": 86,
+                "cast": 44279,
+                "token": 1033620,
+                "goto": 424,
+                "loop": 1201
+              }
+            },
+            "similarity": {
+              "total": 367.5132767147336,
+              "count": 1261
+            },
+            "edits": {
+              "edits": 901732,
+              "tokens": 1007055,
+              "measured": 1257,
+              "absent": 4
+            },
+            "signature": {
+              "measured": 1257,
+              "same_parameters": 1167,
+              "more_parameters": 88,
+              "fewer_parameters": 2,
+              "same_return": 1197,
+              "pointers": 722,
+              "pointers_kept": 478,
+              "floats": 69,
+              "floats_kept": 58,
+              "narrow": 104,
+              "narrow_kept": 0
+            },
+            "cost": {
+              "cpu_s": 73.72830900000001,
+              "samples": 224,
+              "functions": 1272
+            },
+            "ged": {
+              "scored": 1252,
+              "measured": 1248,
+              "perfect": 302,
+              "distance": 73970.0
+            }
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O1",
+            "pass": {
+              "pass": 1463,
+              "judged": 1549
+            },
+            "structure": {
+              "measured": 1558,
+              "source": {
+                "if": 2279,
+                "switch": 125,
+                "cast": 4450,
+                "token": 192359,
+                "goto": 65,
+                "loop": 1118
+              },
+              "recovered": {
+                "if": 4284,
+                "switch": 57,
+                "cast": 16745,
+                "token": 375296,
+                "goto": 76,
+                "loop": 1233
+              }
+            },
+            "similarity": {
+              "total": 633.4984785906012,
+              "count": 1562
+            },
+            "edits": {
+              "edits": 255733,
+              "tokens": 368386,
+              "measured": 1558,
+              "absent": 4
+            },
+            "signature": {
+              "measured": 1558,
+              "same_parameters": 1476,
+              "more_parameters": 70,
+              "fewer_parameters": 12,
+              "same_return": 1423,
+              "pointers": 923,
+              "pointers_kept": 618,
+              "floats": 73,
+              "floats_kept": 61,
+              "narrow": 247,
+              "narrow_kept": 0
+            },
+            "cost": {
+              "cpu_s": 25.565871,
+              "samples": 224,
+              "functions": 1568
+            },
+            "ged": {
+              "scored": 1551,
+              "measured": 1547,
+              "perfect": 467,
+              "distance": 29826.0
+            }
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "pass": {
+              "pass": 1186,
+              "judged": 1284
+            },
+            "structure": {
+              "measured": 1274,
+              "source": {
+                "if": 1978,
+                "switch": 104,
+                "cast": 4166,
+                "token": 169369,
+                "goto": 65,
+                "loop": 967
+              },
+              "recovered": {
+                "if": 5758,
+                "switch": 29,
+                "cast": 18906,
+                "token": 476731,
+                "goto": 375,
+                "loop": 1433
+              }
+            },
+            "similarity": {
+              "total": 442.21374589272136,
+              "count": 1278
+            },
+            "edits": {
+              "edits": 363268,
+              "tokens": 464686,
+              "measured": 1274,
+              "absent": 4
+            },
+            "signature": {
+              "measured": 1274,
+              "same_parameters": 1197,
+              "more_parameters": 75,
+              "fewer_parameters": 2,
+              "same_return": 1192,
+              "pointers": 730,
+              "pointers_kept": 499,
+              "floats": 69,
+              "floats_kept": 57,
+              "narrow": 133,
+              "narrow_kept": 0
+            },
+            "cost": {
+              "cpu_s": 30.77213500000002,
+              "samples": 214,
+              "functions": 1310
+            },
+            "ged": {
+              "scored": 1269,
+              "measured": 1265,
+              "perfect": 296,
+              "distance": 50686.0
+            }
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O3",
+            "pass": {
+              "pass": 1171,
+              "judged": 1268
+            },
+            "structure": {
+              "measured": 1249,
+              "source": {
+                "if": 1975,
+                "switch": 104,
+                "cast": 4044,
+                "token": 166761,
+                "goto": 65,
+                "loop": 955
+              },
+              "recovered": {
+                "if": 10949,
+                "switch": 36,
+                "cast": 37358,
+                "token": 995044,
+                "goto": 1041,
+                "loop": 1178
+              }
+            },
+            "similarity": {
+              "total": 376.0404408568415,
+              "count": 1253
+            },
+            "edits": {
+              "edits": 848691,
+              "tokens": 954174,
+              "measured": 1249,
+              "absent": 4
+            },
+            "signature": {
+              "measured": 1249,
+              "same_parameters": 1171,
+              "more_parameters": 76,
+              "fewer_parameters": 2,
+              "same_return": 1188,
+              "pointers": 722,
+              "pointers_kept": 542,
+              "floats": 69,
+              "floats_kept": 57,
+              "narrow": 83,
+              "narrow_kept": 0
+            },
+            "cost": {
+              "cpu_s": 117.55965399999998,
+              "samples": 224,
+              "functions": 1299
+            },
+            "ged": {
+              "scored": 1244,
+              "measured": 1240,
+              "perfect": 288,
+              "distance": 127167.0
+            }
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O2",
+            "pass": {
+              "pass": 1176,
+              "judged": 1287
+            },
+            "structure": {
+              "measured": 1274,
+              "source": {
+                "if": 1982,
+                "switch": 104,
+                "cast": 4160,
+                "token": 169389,
+                "goto": 65,
+                "loop": 968
+              },
+              "recovered": {
+                "if": 6364,
+                "switch": 25,
+                "cast": 19704,
+                "token": 601287,
+                "goto": 437,
+                "loop": 1603
+              }
+            },
+            "similarity": {
+              "total": 413.6866250571948,
+              "count": 1278
+            },
+            "edits": {
+              "edits": 475606,
+              "tokens": 581088,
+              "measured": 1274,
+              "absent": 4
+            },
+            "signature": {
+              "measured": 1274,
+              "same_parameters": 1227,
+              "more_parameters": 46,
+              "fewer_parameters": 1,
+              "same_return": 1192,
+              "pointers": 730,
+              "pointers_kept": 502,
+              "floats": 69,
+              "floats_kept": 56,
+              "narrow": 133,
+              "narrow_kept": 0
+            },
+            "cost": {
+              "cpu_s": 31.616062,
+              "samples": 214,
+              "functions": 1316
+            },
+            "ged": {
+              "scored": 1269,
+              "measured": 1265,
+              "perfect": 297,
+              "distance": 54362.0
+            }
+          }
+        ],
+        "zoo": "d9b0ce218777"
+      },
+      "references": [
+        {
+          "name": "Kuna",
+          "pin": "a42c0364",
+          "measured_on": "2026-11-20",
+          "zoo": "d9b0ce218777",
+          "build": "43e86415b1c7",
+          "rows": [
+            {
+              "label": "amd64_linux_musl-clang22_O2",
+              "pass": {
+                "pass": 827,
+                "judged": 1251
+              },
+              "structure": {
+                "measured": 1261,
+                "source": {
+                  "if": 1990,
+                  "switch": 107,
+                  "cast": 4118,
+                  "token": 168375,
+                  "goto": 65,
+                  "loop": 958
+                },
+                "recovered": {
+                  "if": 5447,
+                  "switch": 207,
+                  "cast": 24420,
+                  "token": 669528,
+                  "goto": 1384,
+                  "loop": 1211
+                }
+              },
+              "similarity": {
+                "total": 420.6631780717238,
+                "count": 1261
+              },
+              "edits": {
+                "edits": 538604,
+                "tokens": 631553,
+                "measured": 1261,
+                "absent": 0
+              },
+              "signature": {
+                "measured": 1261,
+                "same_parameters": 1237,
+                "more_parameters": 13,
+                "fewer_parameters": 11,
+                "same_return": 1205,
+                "pointers": 724,
+                "pointers_kept": 653,
+                "floats": 67,
+                "floats_kept": 59,
+                "narrow": 104,
+                "narrow_kept": 92
+              },
+              "cost": {
+                "cpu_s": 18.187892,
+                "samples": 224,
+                "functions": 3530
+              },
+              "ged": {
+                "scored": 1252,
+                "measured": 1252,
+                "perfect": 317,
+                "distance": 39059.0
+              }
+            },
+            {
+              "label": "amd64_linux_musl-gcc14_O1",
+              "pass": {
+                "pass": 1091,
+                "judged": 1550
+              },
+              "structure": {
+                "measured": 1562,
+                "source": {
+                  "if": 2279,
+                  "switch": 125,
+                  "cast": 4451,
+                  "token": 192592,
+                  "goto": 65,
+                  "loop": 1122
+                },
+                "recovered": {
+                  "if": 3557,
+                  "switch": 54,
+                  "cast": 4976,
+                  "token": 264292,
+                  "goto": 208,
+                  "loop": 1268
+                }
+              },
+              "similarity": {
+                "total": 695.5572085251454,
+                "count": 1562
+              },
+              "edits": {
+                "edits": 162518,
+                "tokens": 257682,
+                "measured": 1562,
+                "absent": 0
+              },
+              "signature": {
+                "measured": 1562,
+                "same_parameters": 1528,
+                "more_parameters": 19,
+                "fewer_parameters": 15,
+                "same_return": 1498,
+                "pointers": 924,
+                "pointers_kept": 843,
+                "floats": 72,
+                "floats_kept": 63,
+                "narrow": 247,
+                "narrow_kept": 232
+              },
+              "cost": {
+                "cpu_s": 15.687918000000003,
+                "samples": 224,
+                "functions": 3856
+              },
+              "ged": {
+                "scored": 1551,
+                "measured": 1551,
+                "perfect": 489,
+                "distance": 17309.0
+              }
+            },
+            {
+              "label": "amd64_linux_musl-gcc14_O2",
+              "pass": {
+                "pass": 862,
+                "judged": 1288
+              },
+              "structure": {
+                "measured": 1278,
+                "source": {
+                  "if": 1978,
+                  "switch": 104,
+                  "cast": 4167,
+                  "token": 169602,
+                  "goto": 65,
+                  "loop": 971
+                },
+                "recovered": {
+                  "if": 4309,
+                  "switch": 47,
+                  "cast": 7478,
+                  "token": 326546,
+                  "goto": 648,
+                  "loop": 1545
+                }
+              },
+              "similarity": {
+                "total": 487.0980158781055,
+                "count": 1278
+              },
+              "edits": {
+                "edits": 224416,
+                "tokens": 312511,
+                "measured": 1278,
+                "absent": 0
+              },
+              "signature": {
+                "measured": 1278,
+                "same_parameters": 1262,
+                "more_parameters": 7,
+                "fewer_parameters": 9,
+                "same_return": 1231,
+                "pointers": 729,
+                "pointers_kept": 665,
+                "floats": 68,
+                "floats_kept": 59,
+                "narrow": 133,
+                "narrow_kept": 124
+              },
+              "cost": {
+                "cpu_s": 14.171616999999998,
+                "samples": 214,
+                "functions": 3508
+              },
+              "ged": {
+                "scored": 1269,
+                "measured": 1269,
+                "perfect": 304,
+                "distance": 25702.0
+              }
+            },
+            {
+              "label": "amd64_linux_musl-gcc14_O3",
+              "pass": {
+                "pass": 890,
+                "judged": 1273
+              },
+              "structure": {
+                "measured": 1253,
+                "source": {
+                  "if": 1975,
+                  "switch": 104,
+                  "cast": 4045,
+                  "token": 166994,
+                  "goto": 65,
+                  "loop": 959
+                },
+                "recovered": {
+                  "if": 7636,
+                  "switch": 70,
+                  "cast": 17593,
+                  "token": 583953,
+                  "goto": 1652,
+                  "loop": 1299
+                }
+              },
+              "similarity": {
+                "total": 417.31775866088736,
+                "count": 1253
+              },
+              "edits": {
+                "edits": 458585,
+                "tokens": 551413,
+                "measured": 1253,
+                "absent": 0
+              },
+              "signature": {
+                "measured": 1253,
+                "same_parameters": 1241,
+                "more_parameters": 5,
+                "fewer_parameters": 7,
+                "same_return": 1213,
+                "pointers": 720,
+                "pointers_kept": 677,
+                "floats": 68,
+                "floats_kept": 58,
+                "narrow": 83,
+                "narrow_kept": 78
+              },
+              "cost": {
+                "cpu_s": 21.67471100000001,
+                "samples": 224,
+                "functions": 3588
+              },
+              "ged": {
+                "scored": 1244,
+                "measured": 1244,
+                "perfect": 299,
+                "distance": 50636.0
+              }
+            },
+            {
+              "label": "arm64_linux_musl-gcc14_O2",
+              "pass": {
+                "pass": 775,
+                "judged": 1286
+              },
+              "structure": {
+                "measured": 1278,
+                "source": {
+                  "if": 1982,
+                  "switch": 104,
+                  "cast": 4161,
+                  "token": 169622,
+                  "goto": 65,
+                  "loop": 972
+                },
+                "recovered": {
+                  "if": 4589,
+                  "switch": 15,
+                  "cast": 9590,
+                  "token": 365995,
+                  "goto": 628,
+                  "loop": 1484
+                }
+              },
+              "similarity": {
+                "total": 475.1560317955051,
+                "count": 1278
+              },
+              "edits": {
+                "edits": 259561,
+                "tokens": 348241,
+                "measured": 1278,
+                "absent": 0
+              },
+              "signature": {
+                "measured": 1278,
+                "same_parameters": 1259,
+                "more_parameters": 5,
+                "fewer_parameters": 14,
+                "same_return": 1200,
+                "pointers": 727,
+                "pointers_kept": 670,
+                "floats": 68,
+                "floats_kept": 54,
+                "narrow": 132,
+                "narrow_kept": 125
+              },
+              "cost": {
+                "cpu_s": 15.304437999999998,
+                "samples": 214,
+                "functions": 3555
+              },
+              "ged": {
+                "scored": 1269,
+                "measured": 1269,
+                "perfect": 309,
+                "distance": 26916.0
+              }
+            }
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "name": "T1",
+          "verdict": "PASSED",
+          "seconds": 78,
+          "budget_seconds": 600,
+          "steps": [
+            {
+              "label": "build",
+              "seconds": 34
+            },
+            {
+              "label": "dev slice (657 units)",
+              "seconds": 24
+            },
+            {
+              "label": "crate tests",
+              "seconds": 0
+            },
+            {
+              "label": "no Python",
+              "seconds": 20
+            }
+          ]
+        }
+      ],
+      "work": {
+        "open_issues": 47,
+        "open_prs": 22,
+        "branches": 44,
+        "issues_opened_7d": 27,
+        "issues_closed_7d": 70,
+        "prs_merged_7d": 138,
+        "prs_approved": 3,
+        "prs_in_review": 17,
+        "prs_needs_fix": 7
+      }
     }
   ]
 }
