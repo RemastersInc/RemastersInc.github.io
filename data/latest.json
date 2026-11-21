@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T08:45:52Z",
+  "generated_at": "2026-11-21T11:49:10Z",
   "build": "52a8c6a8",
   "committed_at": "2026-11-21T07:21:04Z",
   "round_trip": {
@@ -944,6 +944,75 @@
       }
     ]
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 404,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 0,
+    "failed": 0,
+    "seconds": 4560,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 221,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 3640
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 308
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 612
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 182,
+        "rss_mb": 399,
+        "seconds": 64.28
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 650,
+        "rss_mb": 1250,
+        "seconds": 176.95
+      },
+      {
+        "label": "largest image",
+        "outcome": "not-run",
+        "rss_mb": 0,
+        "seconds": 0.0
+      }
+    ]
+  },
   "per_function": {
     "rows": [
       {
@@ -1253,8 +1322,8 @@
     "issues_opened_7d": 27,
     "issues_closed_7d": 65,
     "prs_merged_7d": 133,
-    "prs_approved": 2,
-    "prs_in_review": 18,
-    "prs_needs_fix": 9
+    "prs_approved": 3,
+    "prs_in_review": 15,
+    "prs_needs_fix": 10
   }
 }
