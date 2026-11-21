@@ -150553,6 +150553,1394 @@
         "prs_in_review": 18,
         "prs_needs_fix": 10
       }
+    },
+    {
+      "schema": 1,
+      "generated_at": "2026-11-21T16:18:56Z",
+      "build": "8ceba3b1",
+      "committed_at": "2026-11-21T12:06:32Z",
+      "round_trip": {
+        "units": 657,
+        "pass": 574,
+        "worse": 0,
+        "better": 0,
+        "verdicts": [
+          {
+            "label": "pass",
+            "count": 574
+          },
+          {
+            "label": "fail-crash-dec",
+            "count": 50
+          },
+          {
+            "label": "fail-compile-export",
+            "count": 15
+          },
+          {
+            "label": "fail-diff",
+            "count": 12
+          },
+          {
+            "label": "fail-hang-dec",
+            "count": 6
+          }
+        ],
+        "targets": [
+          {
+            "label": "amd64_linux_musl-gcc14_O0",
+            "units": 219,
+            "pass": 197
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "units": 219,
+            "pass": 176
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O0",
+            "units": 219,
+            "pass": 201
+          }
+        ],
+        "tags": [
+          {
+            "label": "accessors",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "address-taken",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "algo",
+            "units": 30,
+            "pass": 27
+          },
+          {
+            "label": "alias",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "alignas",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "allocator",
+            "units": 12,
+            "pass": 11
+          },
+          {
+            "label": "always-inline",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "arith",
+            "units": 69,
+            "pass": 69
+          },
+          {
+            "label": "binsearch",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "bitboard",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "bitflags",
+            "units": 12,
+            "pass": 10
+          },
+          {
+            "label": "bitmask",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "bits",
+            "units": 99,
+            "pass": 99
+          },
+          {
+            "label": "bswap",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "bufout",
+            "units": 102,
+            "pass": 84
+          },
+          {
+            "label": "builder",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "builtin",
+            "units": 30,
+            "pass": 28
+          },
+          {
+            "label": "by-value",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "c99-inline",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "calendar",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "call",
+            "units": 39,
+            "pass": 27
+          },
+          {
+            "label": "calls",
+            "units": 30,
+            "pass": 30
+          },
+          {
+            "label": "checksum",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "cleanup",
+            "units": 24,
+            "pass": 8
+          },
+          {
+            "label": "clock",
+            "units": 15,
+            "pass": 10
+          },
+          {
+            "label": "conditional-compilation",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "convert",
+            "units": 15,
+            "pass": 11
+          },
+          {
+            "label": "cost-threshold",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "crc",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "ctrl",
+            "units": 63,
+            "pass": 54
+          },
+          {
+            "label": "data",
+            "units": 39,
+            "pass": 38
+          },
+          {
+            "label": "defer",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "differential",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "dispatch",
+            "units": 36,
+            "pass": 8
+          },
+          {
+            "label": "division",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "dlsym",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "driver-idiom",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "dynamic",
+            "units": 33,
+            "pass": 18
+          },
+          {
+            "label": "elf-macho",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "endian",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "enums",
+            "units": 24,
+            "pass": 23
+          },
+          {
+            "label": "error-path",
+            "units": 24,
+            "pass": 20
+          },
+          {
+            "label": "exc",
+            "units": 24,
+            "pass": 8
+          },
+          {
+            "label": "extern-inline",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "extern-linkage",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "fields",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "fixed-point",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "fnptr",
+            "units": 54,
+            "pass": 32
+          },
+          {
+            "label": "fp",
+            "units": 33,
+            "pass": 29
+          },
+          {
+            "label": "gcc-clang",
+            "units": 42,
+            "pass": 38
+          },
+          {
+            "label": "glob",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "globals",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "hash",
+            "units": 18,
+            "pass": 18
+          },
+          {
+            "label": "heap",
+            "units": 78,
+            "pass": 61
+          },
+          {
+            "label": "imported",
+            "units": 54,
+            "pass": 54
+          },
+          {
+            "label": "inline",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "inlining-boundary",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "integer-widths",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "intrinsics",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "json",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "libc",
+            "units": 48,
+            "pass": 48
+          },
+          {
+            "label": "lifo",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "linkage",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "longjmp",
+            "units": 24,
+            "pass": 18
+          },
+          {
+            "label": "lookup-tables",
+            "units": 27,
+            "pass": 26
+          },
+          {
+            "label": "loop-invariant",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "loops",
+            "units": 135,
+            "pass": 125
+          },
+          {
+            "label": "macros",
+            "units": 27,
+            "pass": 25
+          },
+          {
+            "label": "magic-constants",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "masks",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "mem",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "memmove",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "memory",
+            "units": 24,
+            "pass": 24
+          },
+          {
+            "label": "memset",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "mul128",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "multi-tu",
+            "units": 24,
+            "pass": 24
+          },
+          {
+            "label": "mutual-recursion",
+            "units": 12,
+            "pass": 6
+          },
+          {
+            "label": "negative-enum",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "nesting",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "non-local-exit",
+            "units": 24,
+            "pass": 18
+          },
+          {
+            "label": "obj",
+            "units": 24,
+            "pass": 14
+          },
+          {
+            "label": "oop",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "parse",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "parser",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "parsing",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "pipe",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "poll",
+            "units": 15,
+            "pass": 10
+          },
+          {
+            "label": "posix-only",
+            "units": 48,
+            "pass": 43
+          },
+          {
+            "label": "prog",
+            "units": 27,
+            "pass": 23
+          },
+          {
+            "label": "promotions",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "punning",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "recursion",
+            "units": 27,
+            "pass": 23
+          },
+          {
+            "label": "register",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "resource",
+            "units": 12,
+            "pass": 8
+          },
+          {
+            "label": "retry",
+            "units": 12,
+            "pass": 6
+          },
+          {
+            "label": "rodata",
+            "units": 12,
+            "pass": 11
+          },
+          {
+            "label": "rotate",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "select",
+            "units": 15,
+            "pass": 10
+          },
+          {
+            "label": "setjmp",
+            "units": 24,
+            "pass": 18
+          },
+          {
+            "label": "shifts",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "short-circuit",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "side-effects",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "sign-extension",
+            "units": 27,
+            "pass": 27
+          },
+          {
+            "label": "simd",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "sse2",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "stack",
+            "units": 12,
+            "pass": 6
+          },
+          {
+            "label": "state-machine",
+            "units": 36,
+            "pass": 34
+          },
+          {
+            "label": "static-local",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "storage",
+            "units": 27,
+            "pass": 25
+          },
+          {
+            "label": "str",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "strings",
+            "units": 96,
+            "pass": 92
+          },
+          {
+            "label": "struct-graph",
+            "units": 24,
+            "pass": 14
+          },
+          {
+            "label": "structs",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "switch",
+            "units": 24,
+            "pass": 22
+          },
+          {
+            "label": "symbols",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "sys",
+            "units": 60,
+            "pass": 54
+          },
+          {
+            "label": "syscall",
+            "units": 30,
+            "pass": 25
+          },
+          {
+            "label": "table-driven",
+            "units": 12,
+            "pass": 12
+          },
+          {
+            "label": "ternary",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "tls",
+            "units": 15,
+            "pass": 13
+          },
+          {
+            "label": "types",
+            "units": 24,
+            "pass": 24
+          },
+          {
+            "label": "unions",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "varargs",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "variants",
+            "units": 15,
+            "pass": 15
+          },
+          {
+            "label": "visibility",
+            "units": 15,
+            "pass": 0
+          },
+          {
+            "label": "vtable",
+            "units": 12,
+            "pass": 0
+          },
+          {
+            "label": "x86-only",
+            "units": 15,
+            "pass": 13
+          }
+        ]
+      },
+      "edit_distance": {
+        "exports": 657,
+        "measured": 651,
+        "unmeasured": [
+          {
+            "label": "absent",
+            "count": 6
+          }
+        ],
+        "edits": 140238,
+        "exact": 5,
+        "mean_similarity": 0.40044592933947776,
+        "median_similarity": 0.3822,
+        "histogram": [
+          10,
+          59,
+          154,
+          124,
+          131,
+          80,
+          50,
+          26,
+          12,
+          5
+        ],
+        "targets": [
+          {
+            "label": "amd64_linux_musl-gcc14_O0",
+            "measured": 217,
+            "edits": 42926,
+            "mean_similarity": 0.4341041474654379
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "measured": 217,
+            "edits": 53711,
+            "mean_similarity": 0.333046543778802
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O0",
+            "measured": 217,
+            "edits": 43601,
+            "mean_similarity": 0.43418709677419337
+          }
+        ]
+      },
+      "fp_suite": {
+        "artefacts": 169,
+        "functions": 53618,
+        "pass": 38352,
+        "wrong_value": 585,
+        "signature_values_ok": 6574,
+        "signature_values_wrong": 7770,
+        "compile_fail": 0,
+        "refused": 337,
+        "unsupported": 0,
+        "prototypes_exact": 20809,
+        "lines_recovered": 410752,
+        "lines_source": 101462,
+        "helpers": 57800,
+        "casts": 206556,
+        "gotos": 293,
+        "targets": [
+          {
+            "label": "a64-elf",
+            "functions": 4438,
+            "pass": 3868,
+            "wrong_value": 38
+          },
+          {
+            "label": "a64-macho",
+            "functions": 3470,
+            "pass": 3030,
+            "wrong_value": 11
+          },
+          {
+            "label": "arm-soft",
+            "functions": 1706,
+            "pass": 891,
+            "wrong_value": 5
+          },
+          {
+            "label": "arm-softfp",
+            "functions": 1706,
+            "pass": 999,
+            "wrong_value": 8
+          },
+          {
+            "label": "armhf-vfp",
+            "functions": 2027,
+            "pass": 1485,
+            "wrong_value": 31
+          },
+          {
+            "label": "i386-sse2-elf",
+            "functions": 1160,
+            "pass": 638,
+            "wrong_value": 9
+          },
+          {
+            "label": "i386-sse2-pe",
+            "functions": 1192,
+            "pass": 568,
+            "wrong_value": 15
+          },
+          {
+            "label": "i386-x87-elf",
+            "functions": 1124,
+            "pass": 700,
+            "wrong_value": 9
+          },
+          {
+            "label": "i386-x87-pe",
+            "functions": 1991,
+            "pass": 1159,
+            "wrong_value": 49
+          },
+          {
+            "label": "loongarch64",
+            "functions": 1354,
+            "pass": 1048,
+            "wrong_value": 24
+          },
+          {
+            "label": "mips32-hard",
+            "functions": 1124,
+            "pass": 750,
+            "wrong_value": 16
+          },
+          {
+            "label": "mips32-soft",
+            "functions": 1124,
+            "pass": 476,
+            "wrong_value": 27
+          },
+          {
+            "label": "mips64-n64",
+            "functions": 1318,
+            "pass": 1063,
+            "wrong_value": 14
+          },
+          {
+            "label": "mipsel-hard",
+            "functions": 1124,
+            "pass": 758,
+            "wrong_value": 5
+          },
+          {
+            "label": "ppc32-hard",
+            "functions": 1124,
+            "pass": 466,
+            "wrong_value": 83
+          },
+          {
+            "label": "ppc64le",
+            "functions": 1318,
+            "pass": 803,
+            "wrong_value": 8
+          },
+          {
+            "label": "rv32gc",
+            "functions": 1160,
+            "pass": 785,
+            "wrong_value": 5
+          },
+          {
+            "label": "rv64gc",
+            "functions": 1354,
+            "pass": 1132,
+            "wrong_value": 3
+          },
+          {
+            "label": "rv64imac-soft",
+            "functions": 1354,
+            "pass": 946,
+            "wrong_value": 2
+          },
+          {
+            "label": "s390x",
+            "functions": 1354,
+            "pass": 746,
+            "wrong_value": 15
+          },
+          {
+            "label": "sparc64",
+            "functions": 1318,
+            "pass": 978,
+            "wrong_value": 58
+          },
+          {
+            "label": "thumb-m4f",
+            "functions": 1674,
+            "pass": 1143,
+            "wrong_value": 22
+          },
+          {
+            "label": "thumb-m7",
+            "functions": 1674,
+            "pass": 1075,
+            "wrong_value": 14
+          },
+          {
+            "label": "x64-avx2-elf",
+            "functions": 3072,
+            "pass": 2383,
+            "wrong_value": 6
+          },
+          {
+            "label": "x64-avx512-elf",
+            "functions": 3072,
+            "pass": 2385,
+            "wrong_value": 8
+          },
+          {
+            "label": "x64-macho",
+            "functions": 2429,
+            "pass": 1962,
+            "wrong_value": 26
+          },
+          {
+            "label": "x64-pe",
+            "functions": 3419,
+            "pass": 2562,
+            "wrong_value": 59
+          },
+          {
+            "label": "x64-sse2-elf",
+            "functions": 4438,
+            "pass": 3553,
+            "wrong_value": 15
+          }
+        ],
+        "compilers": [
+          {
+            "label": "appleclang",
+            "functions": 2776,
+            "pass": 2333,
+            "wrong_value": 21
+          },
+          {
+            "label": "clang",
+            "functions": 17398,
+            "pass": 12233,
+            "wrong_value": 200
+          },
+          {
+            "label": "gcc",
+            "functions": 12491,
+            "pass": 9089,
+            "wrong_value": 145
+          },
+          {
+            "label": "zig",
+            "functions": 20953,
+            "pass": 14697,
+            "wrong_value": 219
+          }
+        ]
+      },
+      "round_trip_t3": {
+        "units": 5016,
+        "pass": 4376,
+        "verdicts": [
+          {
+            "label": "pass",
+            "count": 4376
+          },
+          {
+            "label": "fail-crash-dec",
+            "count": 407
+          },
+          {
+            "label": "fail-diff",
+            "count": 197
+          },
+          {
+            "label": "fail-compile-export",
+            "count": 25
+          },
+          {
+            "label": "fail-hang-dec",
+            "count": 11
+          }
+        ],
+        "targets": [
+          {
+            "label": "amd64_linux_musl-gcc14_O0",
+            "units": 975,
+            "pass": 863
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O0_ssp",
+            "units": 975,
+            "pass": 862
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "units": 975,
+            "pass": 829
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_Os",
+            "units": 141,
+            "pass": 120
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O0",
+            "units": 975,
+            "pass": 886
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O2",
+            "units": 975,
+            "pass": 816
+          }
+        ],
+        "similarity": 0.267
+      },
+      "robustness": {
+        "inputs": 406,
+        "finished": 404,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 4573,
+        "limit_mib": 2048,
+        "watch_mb": 5120,
+        "timeout_seconds": 300,
+        "image_limit_mib": 4096,
+        "image_watch_mb": 13824,
+        "image_timeout_seconds": 1200,
+        "collections": [
+          {
+            "label": "decbench",
+            "inputs": 221,
+            "finished": 221,
+            "stopped": 0,
+            "killed": 0,
+            "timed_out": 0,
+            "failed": 0,
+            "seconds": 3482
+          },
+          {
+            "label": "fp",
+            "inputs": 169,
+            "finished": 169,
+            "stopped": 0,
+            "killed": 0,
+            "timed_out": 0,
+            "failed": 0,
+            "seconds": 344
+          },
+          {
+            "label": "real",
+            "inputs": 16,
+            "finished": 14,
+            "stopped": 2,
+            "killed": 0,
+            "timed_out": 0,
+            "failed": 0,
+            "seconds": 747
+          }
+        ],
+        "references": [
+          {
+            "label": "program A, -O0",
+            "outcome": "finished",
+            "heap_mib": 182,
+            "rss_mb": 386,
+            "seconds": 81.37
+          },
+          {
+            "label": "program B, -O0",
+            "outcome": "finished",
+            "heap_mib": 650,
+            "rss_mb": 1402,
+            "seconds": 161.11
+          },
+          {
+            "label": "largest image",
+            "outcome": "not-run",
+            "rss_mb": 0,
+            "seconds": 0.0
+          }
+        ]
+      },
+      "per_function": {
+        "rows": [
+          {
+            "label": "amd64_linux_musl-clang22_O2",
+            "pass": {
+              "pass": 1144,
+              "judged": 1250
+            },
+            "structure": {
+              "measured": 1257,
+              "source": {
+                "if": 1988,
+                "switch": 105,
+                "cast": 4114,
+                "token": 167760
+              },
+              "recovered": {
+                "if": 7530,
+                "switch": 86,
+                "cast": 44261,
+                "token": 1033463
+              }
+            },
+            "similarity": {
+              "total": 367.436765810983,
+              "count": 1261
+            }
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O1",
+            "pass": {
+              "pass": 1458,
+              "judged": 1549
+            },
+            "structure": {
+              "measured": 1558,
+              "source": {
+                "if": 2279,
+                "switch": 125,
+                "cast": 4450,
+                "token": 192359
+              },
+              "recovered": {
+                "if": 4284,
+                "switch": 57,
+                "cast": 16761,
+                "token": 375529
+              }
+            },
+            "similarity": {
+              "total": 633.181755512886,
+              "count": 1562
+            }
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O2",
+            "pass": {
+              "pass": 1180,
+              "judged": 1284
+            },
+            "structure": {
+              "measured": 1274,
+              "source": {
+                "if": 1978,
+                "switch": 104,
+                "cast": 4166,
+                "token": 169369
+              },
+              "recovered": {
+                "if": 5758,
+                "switch": 29,
+                "cast": 18903,
+                "token": 477119
+              }
+            },
+            "similarity": {
+              "total": 441.9945735363809,
+              "count": 1278
+            }
+          },
+          {
+            "label": "amd64_linux_musl-gcc14_O3",
+            "pass": {
+              "pass": 1170,
+              "judged": 1268
+            },
+            "structure": {
+              "measured": 1249,
+              "source": {
+                "if": 1975,
+                "switch": 104,
+                "cast": 4044,
+                "token": 166761
+              },
+              "recovered": {
+                "if": 10949,
+                "switch": 36,
+                "cast": 37335,
+                "token": 995303
+              }
+            },
+            "similarity": {
+              "total": 375.9648038788168,
+              "count": 1253
+            }
+          },
+          {
+            "label": "arm64_linux_musl-gcc14_O2",
+            "pass": {
+              "pass": 1176,
+              "judged": 1287
+            },
+            "structure": {
+              "measured": 1274,
+              "source": {
+                "if": 1982,
+                "switch": 104,
+                "cast": 4160,
+                "token": 169389
+              },
+              "recovered": {
+                "if": 6364,
+                "switch": 25,
+                "cast": 19704,
+                "token": 601292
+              }
+            },
+            "similarity": {
+              "total": 413.6811961755444,
+              "count": 1278
+            }
+          }
+        ],
+        "zoo": "d9b0ce218777"
+      },
+      "references": [
+        {
+          "name": "Kuna",
+          "pin": "9b758091",
+          "measured_on": "2026-11-19",
+          "zoo": "d9b0ce218777",
+          "build": "43e86415b1c7",
+          "rows": [
+            {
+              "label": "amd64_linux_musl-clang22_O2",
+              "pass": {
+                "pass": 827,
+                "judged": 1251
+              },
+              "structure": {
+                "measured": 1261,
+                "source": {
+                  "if": 1990,
+                  "switch": 107,
+                  "cast": 4118,
+                  "token": 168375
+                },
+                "recovered": {
+                  "if": 5447,
+                  "switch": 207,
+                  "cast": 24420,
+                  "token": 669528
+                }
+              },
+              "similarity": {
+                "total": 420.6631780717238,
+                "count": 1261
+              }
+            },
+            {
+              "label": "amd64_linux_musl-gcc14_O1",
+              "pass": {
+                "pass": 1091,
+                "judged": 1550
+              },
+              "structure": {
+                "measured": 1562,
+                "source": {
+                  "if": 2279,
+                  "switch": 125,
+                  "cast": 4451,
+                  "token": 192592
+                },
+                "recovered": {
+                  "if": 3557,
+                  "switch": 54,
+                  "cast": 4976,
+                  "token": 264292
+                }
+              },
+              "similarity": {
+                "total": 695.5572085251454,
+                "count": 1562
+              }
+            },
+            {
+              "label": "amd64_linux_musl-gcc14_O2",
+              "pass": {
+                "pass": 862,
+                "judged": 1288
+              },
+              "structure": {
+                "measured": 1278,
+                "source": {
+                  "if": 1978,
+                  "switch": 104,
+                  "cast": 4167,
+                  "token": 169602
+                },
+                "recovered": {
+                  "if": 4309,
+                  "switch": 47,
+                  "cast": 7478,
+                  "token": 326546
+                }
+              },
+              "similarity": {
+                "total": 487.0980158781055,
+                "count": 1278
+              }
+            },
+            {
+              "label": "amd64_linux_musl-gcc14_O3",
+              "pass": {
+                "pass": 890,
+                "judged": 1273
+              },
+              "structure": {
+                "measured": 1253,
+                "source": {
+                  "if": 1975,
+                  "switch": 104,
+                  "cast": 4045,
+                  "token": 166994
+                },
+                "recovered": {
+                  "if": 7636,
+                  "switch": 70,
+                  "cast": 17593,
+                  "token": 583953
+                }
+              },
+              "similarity": {
+                "total": 417.31775866088736,
+                "count": 1253
+              }
+            },
+            {
+              "label": "arm64_linux_musl-gcc14_O2",
+              "pass": {
+                "pass": 775,
+                "judged": 1286
+              },
+              "structure": {
+                "measured": 1278,
+                "source": {
+                  "if": 1982,
+                  "switch": 104,
+                  "cast": 4161,
+                  "token": 169622
+                },
+                "recovered": {
+                  "if": 4589,
+                  "switch": 15,
+                  "cast": 9590,
+                  "token": 365995
+                }
+              },
+              "similarity": {
+                "total": 475.1560317955051,
+                "count": 1278
+              }
+            }
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "name": "T1",
+          "verdict": "PASSED",
+          "seconds": 22,
+          "budget_seconds": 600,
+          "steps": [
+            {
+              "label": "build",
+              "seconds": 2
+            },
+            {
+              "label": "dev slice (657 units)",
+              "seconds": 2
+            },
+            {
+              "label": "crate tests",
+              "seconds": 0
+            },
+            {
+              "label": "no Python",
+              "seconds": 18
+            }
+          ]
+        }
+      ],
+      "work": {
+        "open_issues": 52,
+        "open_prs": 25,
+        "branches": 47,
+        "issues_opened_7d": 27,
+        "issues_closed_7d": 65,
+        "prs_merged_7d": 134,
+        "prs_approved": 4,
+        "prs_in_review": 17,
+        "prs_needs_fix": 8
+      }
     }
   ]
 }
