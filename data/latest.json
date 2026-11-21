@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T16:27:41Z",
+  "generated_at": "2026-11-21T16:39:39Z",
   "build": "515eb55c",
   "committed_at": "2026-11-21T16:24:28Z",
   "round_trip": {
@@ -944,6 +944,681 @@
       }
     ]
   },
+  "round_trip_t3": {
+    "units": 5016,
+    "pass": 4376,
+    "verdicts": [
+      {
+        "label": "pass",
+        "count": 4376
+      },
+      {
+        "label": "fail-crash-dec",
+        "count": 407
+      },
+      {
+        "label": "fail-diff",
+        "count": 197
+      },
+      {
+        "label": "fail-compile-export",
+        "count": 25
+      },
+      {
+        "label": "fail-hang-dec",
+        "count": 11
+      }
+    ],
+    "targets": [
+      {
+        "label": "amd64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 863
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O0_ssp",
+        "units": 975,
+        "pass": 862
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 829
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_Os",
+        "units": 141,
+        "pass": 120
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O0",
+        "units": 975,
+        "pass": 886
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "units": 975,
+        "pass": 816
+      }
+    ],
+    "similarity": 0.267
+  },
+  "per_function": {
+    "rows": [
+      {
+        "label": "amd64_linux_musl-clang22_O2",
+        "pass": {
+          "pass": 1144,
+          "judged": 1250
+        },
+        "structure": {
+          "measured": 1257,
+          "source": {
+            "if": 1988,
+            "switch": 105,
+            "cast": 4114,
+            "token": 167760,
+            "goto": 65,
+            "loop": 953
+          },
+          "recovered": {
+            "if": 7530,
+            "switch": 86,
+            "cast": 44261,
+            "token": 1033463,
+            "goto": 424,
+            "loop": 1201
+          }
+        },
+        "similarity": {
+          "total": 367.436765810983,
+          "count": 1261
+        },
+        "edits": {
+          "edits": 901567,
+          "tokens": 1006889,
+          "measured": 1257,
+          "absent": 4
+        },
+        "signature": {
+          "measured": 1257,
+          "same_parameters": 1167,
+          "more_parameters": 88,
+          "fewer_parameters": 2,
+          "same_return": 1197,
+          "pointers": 722,
+          "pointers_kept": 478,
+          "floats": 69,
+          "floats_kept": 58,
+          "narrow": 104,
+          "narrow_kept": 0
+        },
+        "cost": {
+          "cpu_s": 66.66537100000004,
+          "samples": 224,
+          "functions": 1272
+        },
+        "ged": {
+          "scored": 1252,
+          "measured": 1248,
+          "perfect": 302,
+          "distance": 73970.0
+        }
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O1",
+        "pass": {
+          "pass": 1458,
+          "judged": 1549
+        },
+        "structure": {
+          "measured": 1558,
+          "source": {
+            "if": 2279,
+            "switch": 125,
+            "cast": 4450,
+            "token": 192359,
+            "goto": 65,
+            "loop": 1118
+          },
+          "recovered": {
+            "if": 4284,
+            "switch": 57,
+            "cast": 16761,
+            "token": 375529,
+            "goto": 76,
+            "loop": 1233
+          }
+        },
+        "similarity": {
+          "total": 633.181755512886,
+          "count": 1562
+        },
+        "edits": {
+          "edits": 255869,
+          "tokens": 368503,
+          "measured": 1558,
+          "absent": 4
+        },
+        "signature": {
+          "measured": 1558,
+          "same_parameters": 1474,
+          "more_parameters": 72,
+          "fewer_parameters": 12,
+          "same_return": 1423,
+          "pointers": 923,
+          "pointers_kept": 618,
+          "floats": 73,
+          "floats_kept": 61,
+          "narrow": 247,
+          "narrow_kept": 0
+        },
+        "cost": {
+          "cpu_s": 26.67702800000001,
+          "samples": 224,
+          "functions": 1568
+        },
+        "ged": {
+          "scored": 1551,
+          "measured": 1547,
+          "perfect": 467,
+          "distance": 29826.0
+        }
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O2",
+        "pass": {
+          "pass": 1180,
+          "judged": 1284
+        },
+        "structure": {
+          "measured": 1274,
+          "source": {
+            "if": 1978,
+            "switch": 104,
+            "cast": 4166,
+            "token": 169369,
+            "goto": 65,
+            "loop": 967
+          },
+          "recovered": {
+            "if": 5758,
+            "switch": 29,
+            "cast": 18903,
+            "token": 477119,
+            "goto": 375,
+            "loop": 1433
+          }
+        },
+        "similarity": {
+          "total": 441.9945735363809,
+          "count": 1278
+        },
+        "edits": {
+          "edits": 363493,
+          "tokens": 464946,
+          "measured": 1274,
+          "absent": 4
+        },
+        "signature": {
+          "measured": 1274,
+          "same_parameters": 1196,
+          "more_parameters": 76,
+          "fewer_parameters": 2,
+          "same_return": 1192,
+          "pointers": 730,
+          "pointers_kept": 498,
+          "floats": 69,
+          "floats_kept": 57,
+          "narrow": 133,
+          "narrow_kept": 0
+        },
+        "cost": {
+          "cpu_s": 31.488288,
+          "samples": 214,
+          "functions": 1310
+        },
+        "ged": {
+          "scored": 1269,
+          "measured": 1265,
+          "perfect": 296,
+          "distance": 50686.0
+        }
+      },
+      {
+        "label": "amd64_linux_musl-gcc14_O3",
+        "pass": {
+          "pass": 1170,
+          "judged": 1268
+        },
+        "structure": {
+          "measured": 1249,
+          "source": {
+            "if": 1975,
+            "switch": 104,
+            "cast": 4044,
+            "token": 166761,
+            "goto": 65,
+            "loop": 955
+          },
+          "recovered": {
+            "if": 10949,
+            "switch": 36,
+            "cast": 37335,
+            "token": 995303,
+            "goto": 1041,
+            "loop": 1178
+          }
+        },
+        "similarity": {
+          "total": 375.9648038788168,
+          "count": 1253
+        },
+        "edits": {
+          "edits": 848892,
+          "tokens": 954388,
+          "measured": 1249,
+          "absent": 4
+        },
+        "signature": {
+          "measured": 1249,
+          "same_parameters": 1171,
+          "more_parameters": 76,
+          "fewer_parameters": 2,
+          "same_return": 1188,
+          "pointers": 722,
+          "pointers_kept": 542,
+          "floats": 69,
+          "floats_kept": 57,
+          "narrow": 83,
+          "narrow_kept": 0
+        },
+        "cost": {
+          "cpu_s": 121.18037999999996,
+          "samples": 224,
+          "functions": 1299
+        },
+        "ged": {
+          "scored": 1244,
+          "measured": 1240,
+          "perfect": 288,
+          "distance": 127162.0
+        }
+      },
+      {
+        "label": "arm64_linux_musl-gcc14_O2",
+        "pass": {
+          "pass": 1176,
+          "judged": 1287
+        },
+        "structure": {
+          "measured": 1274,
+          "source": {
+            "if": 1982,
+            "switch": 104,
+            "cast": 4160,
+            "token": 169389,
+            "goto": 65,
+            "loop": 968
+          },
+          "recovered": {
+            "if": 6364,
+            "switch": 25,
+            "cast": 19704,
+            "token": 601292,
+            "goto": 437,
+            "loop": 1603
+          }
+        },
+        "similarity": {
+          "total": 413.6811961755444,
+          "count": 1278
+        },
+        "edits": {
+          "edits": 475611,
+          "tokens": 581093,
+          "measured": 1274,
+          "absent": 4
+        },
+        "signature": {
+          "measured": 1274,
+          "same_parameters": 1227,
+          "more_parameters": 46,
+          "fewer_parameters": 1,
+          "same_return": 1192,
+          "pointers": 730,
+          "pointers_kept": 502,
+          "floats": 69,
+          "floats_kept": 56,
+          "narrow": 133,
+          "narrow_kept": 0
+        },
+        "cost": {
+          "cpu_s": 32.031745,
+          "samples": 214,
+          "functions": 1316
+        },
+        "ged": {
+          "scored": 1269,
+          "measured": 1265,
+          "perfect": 297,
+          "distance": 54362.0
+        }
+      }
+    ],
+    "zoo": "d9b0ce218777"
+  },
+  "references": [
+    {
+      "name": "Kuna",
+      "pin": "a42c0364",
+      "measured_on": "2026-11-20",
+      "zoo": "d9b0ce218777",
+      "build": "43e86415b1c7",
+      "rows": [
+        {
+          "label": "amd64_linux_musl-clang22_O2",
+          "pass": {
+            "pass": 827,
+            "judged": 1251
+          },
+          "structure": {
+            "measured": 1261,
+            "source": {
+              "if": 1990,
+              "switch": 107,
+              "cast": 4118,
+              "token": 168375,
+              "goto": 65,
+              "loop": 958
+            },
+            "recovered": {
+              "if": 5447,
+              "switch": 207,
+              "cast": 24420,
+              "token": 669528,
+              "goto": 1384,
+              "loop": 1211
+            }
+          },
+          "similarity": {
+            "total": 420.6631780717238,
+            "count": 1261
+          },
+          "edits": {
+            "edits": 538604,
+            "tokens": 631553,
+            "measured": 1261,
+            "absent": 0
+          },
+          "signature": {
+            "measured": 1261,
+            "same_parameters": 1237,
+            "more_parameters": 13,
+            "fewer_parameters": 11,
+            "same_return": 1205,
+            "pointers": 724,
+            "pointers_kept": 653,
+            "floats": 67,
+            "floats_kept": 59,
+            "narrow": 104,
+            "narrow_kept": 92
+          },
+          "cost": {
+            "cpu_s": 18.187892,
+            "samples": 224,
+            "functions": 3530
+          },
+          "ged": {
+            "scored": 1252,
+            "measured": 1252,
+            "perfect": 317,
+            "distance": 39059.0
+          }
+        },
+        {
+          "label": "amd64_linux_musl-gcc14_O1",
+          "pass": {
+            "pass": 1091,
+            "judged": 1550
+          },
+          "structure": {
+            "measured": 1562,
+            "source": {
+              "if": 2279,
+              "switch": 125,
+              "cast": 4451,
+              "token": 192592,
+              "goto": 65,
+              "loop": 1122
+            },
+            "recovered": {
+              "if": 3557,
+              "switch": 54,
+              "cast": 4976,
+              "token": 264292,
+              "goto": 208,
+              "loop": 1268
+            }
+          },
+          "similarity": {
+            "total": 695.5572085251454,
+            "count": 1562
+          },
+          "edits": {
+            "edits": 162518,
+            "tokens": 257682,
+            "measured": 1562,
+            "absent": 0
+          },
+          "signature": {
+            "measured": 1562,
+            "same_parameters": 1528,
+            "more_parameters": 19,
+            "fewer_parameters": 15,
+            "same_return": 1498,
+            "pointers": 924,
+            "pointers_kept": 843,
+            "floats": 72,
+            "floats_kept": 63,
+            "narrow": 247,
+            "narrow_kept": 232
+          },
+          "cost": {
+            "cpu_s": 15.687918000000003,
+            "samples": 224,
+            "functions": 3856
+          },
+          "ged": {
+            "scored": 1551,
+            "measured": 1551,
+            "perfect": 489,
+            "distance": 17309.0
+          }
+        },
+        {
+          "label": "amd64_linux_musl-gcc14_O2",
+          "pass": {
+            "pass": 862,
+            "judged": 1288
+          },
+          "structure": {
+            "measured": 1278,
+            "source": {
+              "if": 1978,
+              "switch": 104,
+              "cast": 4167,
+              "token": 169602,
+              "goto": 65,
+              "loop": 971
+            },
+            "recovered": {
+              "if": 4309,
+              "switch": 47,
+              "cast": 7478,
+              "token": 326546,
+              "goto": 648,
+              "loop": 1545
+            }
+          },
+          "similarity": {
+            "total": 487.0980158781055,
+            "count": 1278
+          },
+          "edits": {
+            "edits": 224416,
+            "tokens": 312511,
+            "measured": 1278,
+            "absent": 0
+          },
+          "signature": {
+            "measured": 1278,
+            "same_parameters": 1262,
+            "more_parameters": 7,
+            "fewer_parameters": 9,
+            "same_return": 1231,
+            "pointers": 729,
+            "pointers_kept": 665,
+            "floats": 68,
+            "floats_kept": 59,
+            "narrow": 133,
+            "narrow_kept": 124
+          },
+          "cost": {
+            "cpu_s": 14.171616999999998,
+            "samples": 214,
+            "functions": 3508
+          },
+          "ged": {
+            "scored": 1269,
+            "measured": 1269,
+            "perfect": 304,
+            "distance": 25702.0
+          }
+        },
+        {
+          "label": "amd64_linux_musl-gcc14_O3",
+          "pass": {
+            "pass": 890,
+            "judged": 1273
+          },
+          "structure": {
+            "measured": 1253,
+            "source": {
+              "if": 1975,
+              "switch": 104,
+              "cast": 4045,
+              "token": 166994,
+              "goto": 65,
+              "loop": 959
+            },
+            "recovered": {
+              "if": 7636,
+              "switch": 70,
+              "cast": 17593,
+              "token": 583953,
+              "goto": 1652,
+              "loop": 1299
+            }
+          },
+          "similarity": {
+            "total": 417.31775866088736,
+            "count": 1253
+          },
+          "edits": {
+            "edits": 458585,
+            "tokens": 551413,
+            "measured": 1253,
+            "absent": 0
+          },
+          "signature": {
+            "measured": 1253,
+            "same_parameters": 1241,
+            "more_parameters": 5,
+            "fewer_parameters": 7,
+            "same_return": 1213,
+            "pointers": 720,
+            "pointers_kept": 677,
+            "floats": 68,
+            "floats_kept": 58,
+            "narrow": 83,
+            "narrow_kept": 78
+          },
+          "cost": {
+            "cpu_s": 21.67471100000001,
+            "samples": 224,
+            "functions": 3588
+          },
+          "ged": {
+            "scored": 1244,
+            "measured": 1244,
+            "perfect": 299,
+            "distance": 50636.0
+          }
+        },
+        {
+          "label": "arm64_linux_musl-gcc14_O2",
+          "pass": {
+            "pass": 775,
+            "judged": 1286
+          },
+          "structure": {
+            "measured": 1278,
+            "source": {
+              "if": 1982,
+              "switch": 104,
+              "cast": 4161,
+              "token": 169622,
+              "goto": 65,
+              "loop": 972
+            },
+            "recovered": {
+              "if": 4589,
+              "switch": 15,
+              "cast": 9590,
+              "token": 365995,
+              "goto": 628,
+              "loop": 1484
+            }
+          },
+          "similarity": {
+            "total": 475.1560317955051,
+            "count": 1278
+          },
+          "edits": {
+            "edits": 259561,
+            "tokens": 348241,
+            "measured": 1278,
+            "absent": 0
+          },
+          "signature": {
+            "measured": 1278,
+            "same_parameters": 1259,
+            "more_parameters": 5,
+            "fewer_parameters": 14,
+            "same_return": 1200,
+            "pointers": 727,
+            "pointers_kept": 670,
+            "floats": 68,
+            "floats_kept": 54,
+            "narrow": 132,
+            "narrow_kept": 125
+          },
+          "cost": {
+            "cpu_s": 15.304437999999998,
+            "samples": 214,
+            "functions": 3555
+          },
+          "ged": {
+            "scored": 1269,
+            "measured": 1269,
+            "perfect": 309,
+            "distance": 26916.0
+          }
+        }
+      ]
+    }
+  ],
   "gates": [
     {
       "name": "T1",
@@ -978,7 +1653,7 @@
     "issues_closed_7d": 65,
     "prs_merged_7d": 135,
     "prs_approved": 4,
-    "prs_in_review": 17,
-    "prs_needs_fix": 7
+    "prs_in_review": 15,
+    "prs_needs_fix": 8
   }
 }
