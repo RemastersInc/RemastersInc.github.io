@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T18:20:04Z",
+  "generated_at": "2026-11-23T19:21:22Z",
   "build": "a4cc93cc",
   "committed_at": "2026-11-23T07:47:21Z",
   "round_trip": {
@@ -1752,8 +1752,8 @@
     "issues_opened_7d": 27,
     "issues_closed_7d": 60,
     "prs_merged_7d": 128,
-    "prs_approved": 0,
-    "prs_in_review": 7,
-    "prs_needs_fix": 4
+    "prs_approved": 2,
+    "prs_in_review": 4,
+    "prs_needs_fix": 3
   }
 }
