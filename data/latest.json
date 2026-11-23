@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T04:08:48Z",
-  "build": "2bd81d4e",
-  "committed_at": "2026-11-23T04:04:06Z",
+  "generated_at": "2026-11-23T04:25:24Z",
+  "build": "001f8938",
+  "committed_at": "2026-11-23T04:19:28Z",
   "round_trip": {
     "units": 657,
     "pass": 583,
@@ -690,40 +690,40 @@
         "count": 6
       }
     ],
-    "edits": 139373,
+    "edits": 138756,
     "exact": 5,
-    "mean_similarity": 0.4022941628264211,
-    "median_similarity": 0.3879,
+    "mean_similarity": 0.40469170506912466,
+    "median_similarity": 0.3891,
     "histogram": [
       10,
-      60,
+      59,
       148,
-      124,
-      133,
-      83,
-      50,
-      26,
-      12,
-      5
+      122,
+      131,
+      87,
+      51,
+      21,
+      16,
+      6
     ],
     "targets": [
       {
         "label": "amd64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 43126,
-        "mean_similarity": 0.43428479262672826
+        "edits": 43078,
+        "mean_similarity": 0.43680599078341026
       },
       {
         "label": "amd64_linux_musl-gcc14_O2",
         "measured": 217,
-        "edits": 53694,
-        "mean_similarity": 0.3333119815668204
+        "edits": 53143,
+        "mean_similarity": 0.3373115207373273
       },
       {
         "label": "arm64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 42553,
-        "mean_similarity": 0.4392857142857141
+        "edits": 42535,
+        "mean_similarity": 0.4399576036866358
       }
     ]
   },
@@ -944,16 +944,16 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 37,
+      "seconds": 122,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 5
+          "seconds": 55
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 3
+          "seconds": 57
         },
         {
           "label": "crate tests",
@@ -961,20 +961,20 @@
         },
         {
           "label": "no Python",
-          "seconds": 29
+          "seconds": 10
         }
       ]
     }
   ],
   "work": {
     "open_issues": 46,
-    "open_prs": 16,
-    "branches": 38,
+    "open_prs": 15,
+    "branches": 37,
     "issues_opened_7d": 27,
     "issues_closed_7d": 60,
-    "prs_merged_7d": 123,
-    "prs_approved": 4,
-    "prs_in_review": 11,
-    "prs_needs_fix": 2
+    "prs_merged_7d": 124,
+    "prs_approved": 3,
+    "prs_in_review": 10,
+    "prs_needs_fix": 3
   }
 }
