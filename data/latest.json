@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T03:03:41Z",
-  "build": "67fdfe4d",
-  "committed_at": "2026-11-23T02:56:30Z",
+  "generated_at": "2026-11-23T03:20:53Z",
+  "build": "24d32189",
+  "committed_at": "2026-11-23T03:11:03Z",
   "round_trip": {
     "units": 657,
     "pass": 583,
@@ -690,9 +690,9 @@
         "count": 6
       }
     ],
-    "edits": 139378,
+    "edits": 139373,
     "exact": 5,
-    "mean_similarity": 0.4022612903225808,
+    "mean_similarity": 0.4022941628264211,
     "median_similarity": 0.3879,
     "histogram": [
       10,
@@ -722,8 +722,8 @@
       {
         "label": "arm64_linux_musl-gcc14_O0",
         "measured": 217,
-        "edits": 42558,
-        "mean_similarity": 0.4391870967741934
+        "edits": 42553,
+        "mean_similarity": 0.4392857142857141
       }
     ]
   },
@@ -944,16 +944,16 @@
     {
       "name": "T1",
       "verdict": "PASSED",
-      "seconds": 54,
+      "seconds": 68,
       "budget_seconds": 600,
       "steps": [
         {
           "label": "build",
-          "seconds": 36
+          "seconds": 21
         },
         {
           "label": "dev slice (657 units)",
-          "seconds": 12
+          "seconds": 37
         },
         {
           "label": "crate tests",
@@ -961,19 +961,19 @@
         },
         {
           "label": "no Python",
-          "seconds": 6
+          "seconds": 10
         }
       ]
     }
   ],
   "work": {
     "open_issues": 46,
-    "open_prs": 18,
-    "branches": 40,
+    "open_prs": 17,
+    "branches": 39,
     "issues_opened_7d": 27,
     "issues_closed_7d": 60,
-    "prs_merged_7d": 121,
-    "prs_approved": 5,
+    "prs_merged_7d": 122,
+    "prs_approved": 4,
     "prs_in_review": 12,
     "prs_needs_fix": 3
   }
