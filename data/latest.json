@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T21:54:59Z",
+  "generated_at": "2026-11-24T00:04:02Z",
   "build": "809b07b6",
   "committed_at": "2026-11-23T21:21:17Z",
   "round_trip": {
@@ -999,6 +999,75 @@
     ],
     "similarity": 0.2688
   },
+  "robustness": {
+    "inputs": 406,
+    "finished": 404,
+    "stopped": 2,
+    "killed": 0,
+    "timed_out": 0,
+    "failed": 0,
+    "seconds": 5541,
+    "limit_mib": 2048,
+    "watch_mb": 5120,
+    "timeout_seconds": 300,
+    "image_limit_mib": 4096,
+    "image_watch_mb": 13824,
+    "image_timeout_seconds": 1200,
+    "collections": [
+      {
+        "label": "decbench",
+        "inputs": 221,
+        "finished": 221,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 4153
+      },
+      {
+        "label": "fp",
+        "inputs": 169,
+        "finished": 169,
+        "stopped": 0,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 449
+      },
+      {
+        "label": "real",
+        "inputs": 16,
+        "finished": 14,
+        "stopped": 2,
+        "killed": 0,
+        "timed_out": 0,
+        "failed": 0,
+        "seconds": 939
+      }
+    ],
+    "references": [
+      {
+        "label": "program A, -O0",
+        "outcome": "finished",
+        "heap_mib": 182,
+        "rss_mb": 211,
+        "seconds": 108.46
+      },
+      {
+        "label": "program B, -O0",
+        "outcome": "finished",
+        "heap_mib": 650,
+        "rss_mb": 935,
+        "seconds": 184.92
+      },
+      {
+        "label": "largest image",
+        "outcome": "not-run",
+        "rss_mb": 0,
+        "seconds": 0.0
+      }
+    ]
+  },
   "per_function": {
     "rows": [
       {
@@ -1716,10 +1785,10 @@
     "open_prs": 8,
     "branches": 36,
     "issues_opened_7d": 27,
-    "issues_closed_7d": 60,
-    "prs_merged_7d": 130,
+    "issues_closed_7d": 56,
+    "prs_merged_7d": 120,
     "prs_approved": 0,
-    "prs_in_review": 4,
+    "prs_in_review": 5,
     "prs_needs_fix": 4
   }
 }
