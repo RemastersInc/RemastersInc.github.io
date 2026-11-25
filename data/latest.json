@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T06:59:46Z",
+  "generated_at": "2026-11-25T09:22:17Z",
   "build": "344b4732",
   "committed_at": "2026-11-25T04:40:22Z",
   "round_trip": {
@@ -1343,7 +1343,7 @@
     {
       "name": "Kuna",
       "pin": "a42c0364",
-      "measured_on": "2026-11-23",
+      "measured_on": "2026-11-20",
       "zoo": "d9b0ce218777",
       "build": "43e86415b1c7",
       "rows": [
@@ -1405,13 +1405,6 @@
             "measured": 1252,
             "perfect": 317,
             "distance": 39059.0
-          },
-          "type_match": {
-            "measured": 676,
-            "perfect": 258,
-            "share": 295.1666666666666,
-            "absent": 0,
-            "unmeasured": 585
           }
         },
         {
@@ -1472,13 +1465,6 @@
             "measured": 1551,
             "perfect": 489,
             "distance": 17309.0
-          },
-          "type_match": {
-            "measured": 1537,
-            "perfect": 225,
-            "share": 607.6962126148027,
-            "absent": 0,
-            "unmeasured": 25
           }
         },
         {
@@ -1539,13 +1525,6 @@
             "measured": 1269,
             "perfect": 304,
             "distance": 25702.0
-          },
-          "type_match": {
-            "measured": 1206,
-            "perfect": 149,
-            "share": 443.73207238518194,
-            "absent": 0,
-            "unmeasured": 72
           }
         },
         {
@@ -1606,13 +1585,6 @@
             "measured": 1244,
             "perfect": 299,
             "distance": 50636.0
-          },
-          "type_match": {
-            "measured": 1176,
-            "perfect": 147,
-            "share": 429.14045946593745,
-            "absent": 0,
-            "unmeasured": 77
           }
         },
         {
@@ -1673,13 +1645,6 @@
             "measured": 1269,
             "perfect": 309,
             "distance": 26916.0
-          },
-          "type_match": {
-            "measured": 1207,
-            "perfect": 158,
-            "share": 459.1509425071479,
-            "absent": 0,
-            "unmeasured": 71
           }
         }
       ]
@@ -1712,13 +1677,13 @@
     }
   ],
   "work": {
-    "open_issues": 42,
-    "open_prs": 9,
-    "branches": 37,
-    "issues_opened_7d": 24,
+    "open_issues": 43,
+    "open_prs": 10,
+    "branches": 38,
+    "issues_opened_7d": 25,
     "issues_closed_7d": 60,
     "prs_merged_7d": 116,
-    "prs_approved": 1,
+    "prs_approved": 2,
     "prs_in_review": 4,
     "prs_needs_fix": 3
   }
